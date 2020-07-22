@@ -1,3 +1,33 @@
 [datetime]
 "1.7.0" = {git="https://github.com/wavebitscientific/datetime-fortran", tag="v1.7.0"}
 "latest" = {git="https://github.com/wavebitscientific/datetime-fortran"}
+
+[M_calculator]
+"latest" = {git="https://github.com/urbanjost/M_calculator"}
+
+[M_change]
+"latest" = {git="https://github.com/urbanjost/M_change"}
+
+[M_cli]
+"latest" = {git="https://github.com/urbanjost/M_cli"}
+
+[M_color]
+"latest" = {git="https://github.com/urbanjost/M_color"}
+
+[M_history]
+"latest" = {git="https://github.com/urbanjost/M_history"}
+
+[M_io]
+"latest" = {git="https://github.com/urbanjost/M_io"}
+
+[M_msg]
+"latest" = {git="https://github.com/urbanjost/M_msg"}
+
+[M_process]
+"latest" = {git="https://github.com/urbanjost/M_process"}
+
+[M_strings]
+"latest" = {git="https://github.com/urbanjost/M_strings"}
+
+[M_time]
+"latest" = {git="https://github.com/urbanjost/M_time"}
