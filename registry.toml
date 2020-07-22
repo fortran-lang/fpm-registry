@@ -1,0 +1,3 @@
+[datetime]
+"1.7.0" = {git="htttps://github.com/wavebitscientific/datetime-fortran", tag="v1.7.0"}
+"latest" = {git="htttps://github.com/wavebitscientific/datetime-fortran"}
