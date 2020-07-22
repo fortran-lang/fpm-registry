@@ -5,7 +5,7 @@ Centralized registry of fpm packages
 ## How to submit a new package
 
 Please submit a PR against this repository, add the new package into the file
-[registry.toml](./registry.toml). Explicitly list each version (or the latest
+[registry.toml](./registry.toml) in alphabetical order. Explicitly list each version (or the latest
 git commit), using a syntax like:
 ```toml
 [datetime]
