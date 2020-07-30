@@ -2,6 +2,12 @@
 "1.7.0" = {git="https://github.com/wavebitscientific/datetime-fortran", tag="v1.7.0"}
 "latest" = {git="https://github.com/wavebitscientific/datetime-fortran"}
 
+[iso_varying_string]
+"latest" = {git="https://gitlab.com/everythingfunctional/iso_varying_string"}
+
+[jsonff]
+"latest" = {git="https://gitlab.com/everythingfunctional/jsonff"}
+
 [M_calculator]
 "latest" = {git="https://github.com/urbanjost/M_calculator"}
 
@@ -31,3 +37,15 @@
 
 [M_time]
 "latest" = {git="https://github.com/urbanjost/M_time"}
+
+[quaff]
+"latest" = {git="https://gitlab.com/everythingfunctional/quaff"}
+
+[sqliteff]
+"latest" = {git="https://gitlab.com/everythingfunctional/sqliteff"}
+
+[strff]
+"latest" = {git="https://gitlab.com/everythingfunctional/strff"}
+
+[vegetables]
+"latest" = {git="https://gitlab.com/everythingfunctional/vegetables"}
