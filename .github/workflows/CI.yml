@@ -34,3 +34,21 @@ jobs:
     - name: Test TOML syntax
       run: |
         python load_registry.py
+
+    - name: Check new entries
+      if: ${{ github.event_name == 'pull_request' }}
+      run: python build_index.py --check-new
+
+    - name: Build index
+      if: ${{ github.event_name == 'push' }}
+      run: python build_index.py --check-all
+
+    # Commit and push changes to remote/gh-pages
+    - name: Commit and push to gh-pages
+      uses: EndBug/add-and-commit@master
+      if: ${{ github.event_name == 'push' }}
+      with:
+        message: "Rebuild index.json, commit ${{github.sha}} (on:push)"
+        ref: ${{ github.ref }}
+      env:  
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
