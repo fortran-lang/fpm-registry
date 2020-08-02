@@ -1,6 +1,6 @@
 name: Build Index
 
-on: [push]
+on: push
   branches:
     - master
 
