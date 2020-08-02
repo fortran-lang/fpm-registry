@@ -1,8 +1,9 @@
 name: Build Index
 
-on: push
-  branches:
-    - master
+on:
+  push:
+    branches:
+      - master
 
 env:
   GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
