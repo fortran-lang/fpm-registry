@@ -1,4 +1,4 @@
-name: Build Index
+name: Check Index
 
 on: pull_request
 
