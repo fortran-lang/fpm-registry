@@ -14,9 +14,6 @@
 [M_change]
 "latest" = {git="https://github.com/urbanjost/M_change"}
 
-[M_cli]
-"latest" = {git="https://github.com/urbanjost/M_cli"}
-
 [M_color]
 "latest" = {git="https://github.com/urbanjost/M_color"}
 
