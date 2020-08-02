@@ -107,9 +107,9 @@ def main():
                     ref = None
 
                 # Build json index entry
-                pkgInfoFull = check_fpm_toml(fpm_toml)
-                pkgInfoFull["git"] = pkg_info["git"]
-                pkgInfoFull["git-tag"] = ref
+                pkg_info_full = check_fpm_toml(fpm_toml)
+                pkg_info_full["git"] = pkg_info["git"]
+                pkg_info_full["git-tag"] = ref
 
                 # Counting
                 if (f"{pkg_name}" in index["packages"]
@@ -123,7 +123,7 @@ def main():
                 if f"{pkg_name}" not in index["packages"]:
                     index["packages"][pkg_name] = {}
 
-                index["packages"][pkg_name][pkg_version] = pkgInfoFull
+                index["packages"][pkg_name][pkg_version] = pkg_info_full
 
             except Exception:
                 print(f"        (!) Error processing package '"

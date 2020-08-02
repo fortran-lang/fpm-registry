@@ -6,8 +6,7 @@ def check_registry_entry(name,version,entry,dump=True):
                         + f"'{name}-{version}', entry:\n {entry}")
 
     if dump:
-        print("Package:", name)
-        print("    Version:", version)
+        print(f"Package: {name}    Version: {version}")
 
     # Required keys
     for key in ["git"]:
@@ -35,30 +34,30 @@ def check_fpm_toml(contents):
     fpm_info = {}
     
     # Must be present, copied to json
-    requiredKeys = ["name", "version", "license", "author", 
+    required_keys = ["name", "version", "license", "author", 
                        "maintainer", "copyright"]
 
     # Optionally present, copied to json
-    optionalKeys = ["description", "executable", "dependencies",
+    optional_keys = ["description", "executable", "dependencies",
                      "dev-dependencies"]
 
     # Optionally present, not copied to json
-    otherKeys = ["test", "library"]
+    other_keys = ["test", "library"]
 
     # Check for required keys
-    for key in requiredKeys:
+    for key in required_keys:
         if key not in p:
             raise Exception(f"Missing required key '{key}' in fpm.toml.")
 
     for key in p.keys():
-        if key not in requiredKeys + optionalKeys + otherKeys:
+        if key not in required_keys + optional_keys + other_keys:
             print(f"        (!) Warning: unexpected key '{key}; in fpm.toml")
 
     # Copy keys to dict for json index
-    for key in requiredKeys:
+    for key in required_keys:
         fpm_info[key] = p[key]
 
-    for key in optionalKeys:
+    for key in optional_keys:
         if key in p:
             fpm_info[key] = p[key]
         else:
