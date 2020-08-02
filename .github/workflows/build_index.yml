@@ -43,8 +43,8 @@ jobs:
 
     - name: Commit and push updated index
       uses: EndBug/add-and-commit@master
-      if: ${{ github.event_name == 'push' }}
       with:
+        add: index.json
         message: "Rebuild index.json, commit ${{github.sha}} (on:push)"
       env:  
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
