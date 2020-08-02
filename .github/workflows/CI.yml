@@ -50,6 +50,5 @@ jobs:
       if: ${{ github.event_name == 'push' }}
       with:
         message: "Rebuild index.json, commit ${{github.sha}} (on:push)"
-        ref: ${{ github.ref }}
       env:  
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
