@@ -1,6 +1,8 @@
-name: CI
+name: Build Index
 
-on: [push, pull_request]
+on: [push]
+  branches:
+    - master
 
 env:
   CI: "ON" # We can detect this in the build system and other vendors implement it
@@ -36,16 +38,10 @@ jobs:
       run: |
         python load_registry.py
 
-    - name: Check new entries
-      if: ${{ github.event_name == 'pull_request' }}
-      run: python build_index.py --check-new
-
     - name: Build index
-      if: ${{ github.event_name == 'push' }}
       run: python build_index.py --check-all
 
-    # Commit and push changes to remote/gh-pages
-    - name: Commit and push to gh-pages
+    - name: Commit and push updated index
       uses: EndBug/add-and-commit@master
       if: ${{ github.event_name == 'push' }}
       with:

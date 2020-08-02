@@ -1,0 +1,40 @@
+name: Build Index
+
+on: [pull_request]
+
+env:
+  CI: "ON" # We can detect this in the build system and other vendors implement it
+  GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+jobs:
+  Build:
+    runs-on: ${{ matrix.os }}
+    strategy:
+      fail-fast: false
+      matrix:
+        os: [ubuntu-latest]
+        gcc_v: [9] # Version of GFortran we want to use.
+    env:
+      FC: gfortran
+      GCC_V: ${{ matrix.gcc_v }}
+
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v1
+
+    - name: Set up Python 3.8
+      uses: actions/setup-python@v2
+      with:
+        python-version: 3.8
+
+    - name: Install Python dependencies
+      run: |
+        python -m pip install --upgrade pip
+        pip install -r requirements.txt
+
+    - name: Test TOML syntax
+      run: |
+        python load_registry.py
+
+    - name: Check new index entries
+      run: python build_index.py --check-new
