@@ -3,7 +3,6 @@ name: Build Index
 on: [pull_request]
 
 env:
-  CI: "ON" # We can detect this in the build system and other vendors implement it
   GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
 jobs:
