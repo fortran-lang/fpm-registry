@@ -49,3 +49,6 @@
 
 [vegetables]
 "latest" = {git="https://gitlab.com/everythingfunctional/vegetables"}
+
+[pointsets]
+"latest" = {git="https://github.com/arjenmarkus/pointsets"}
