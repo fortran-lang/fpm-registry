@@ -1,1 +1,3 @@
 toml
+gitpython
+github3.py

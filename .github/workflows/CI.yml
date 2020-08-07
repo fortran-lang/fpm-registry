@@ -1,9 +1,15 @@
 name: CI
 
-on: [push, pull_request]
+on:
+  push:
+    branches:
+      - master
+  pull_request:
+    branches:
+      - master
 
 env:
-  CI: "ON" # We can detect this in the build system and other vendors implement it
+  GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
 jobs:
   Build:
@@ -34,3 +40,20 @@ jobs:
     - name: Test TOML syntax
       run: |
         python load_registry.py
+
+    - name: Check index
+      if: ${{ github.event_name == 'pull_request' }}
+      run: python build_index.py --check-new
+
+    - name: Build index
+      if: ${{ github.event_name == 'push' }}
+      run: python build_index.py --check-all
+
+    - name: Commit updated index
+      if: ${{ github.event_name == 'push' }}
+      uses: EndBug/add-and-commit@master
+      with:
+        add: index.json
+        message: "Rebuild index.json, commit ${{github.sha}} (on:push)"
+      env:  
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
