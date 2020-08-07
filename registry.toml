@@ -38,6 +38,9 @@
 [M_time]
 "latest" = {git="https://github.com/urbanjost/M_time"}
 
+[pointsets]
+"latest" = {git="https://github.com/arjenmarkus/pointsets"}
+
 [quaff]
 "latest" = {git="https://gitlab.com/everythingfunctional/quaff"}
 
@@ -49,6 +52,3 @@
 
 [vegetables]
 "latest" = {git="https://gitlab.com/everythingfunctional/vegetables"}
-
-[pointsets]
-"latest" = {git="https://github.com/arjenmarkus/pointsets"}
