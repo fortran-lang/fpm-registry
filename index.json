@@ -1,0 +1,531 @@
+{
+    "packages": {
+        "datetime": {
+            "1.7.0": {
+                "name": "libdatetime",
+                "version": "1.7.0",
+                "license": "MIT",
+                "author": "Milan Curcic",
+                "maintainer": "caomaco@gmail.com",
+                "copyright": "2013-2020 datetime-fortran contributors",
+                "description": null,
+                "executable": null,
+                "dependencies": null,
+                "dev-dependencies": null,
+                "git": "https://github.com/wavebitscientific/datetime-fortran",
+                "git-tag": "v1.7.0"
+            },
+            "latest": {
+                "name": "datetime",
+                "version": "1.7.0",
+                "license": "MIT",
+                "author": "Milan Curcic",
+                "maintainer": "caomaco@gmail.com",
+                "copyright": "2013-2020 datetime-fortran contributors",
+                "description": null,
+                "executable": null,
+                "dependencies": null,
+                "dev-dependencies": null,
+                "git": "https://github.com/wavebitscientific/datetime-fortran",
+                "git-tag": null
+            }
+        },
+        "iso_varying_string": {
+            "latest": {
+                "name": "iso_varying_string",
+                "version": "1.0.1",
+                "license": "MIT",
+                "author": "Brad Richardson",
+                "maintainer": "everythingfunctional@protonmail.com",
+                "copyright": "2020 Brad Richardson",
+                "description": null,
+                "executable": null,
+                "dependencies": null,
+                "dev-dependencies": {
+                    "vegetables": {
+                        "git": "https://gitlab.com/everythingfunctional/vegetables",
+                        "tag": "v5.0.0"
+                    }
+                },
+                "git": "https://gitlab.com/everythingfunctional/iso_varying_string",
+                "git-tag": null
+            }
+        },
+        "jsonff": {
+            "latest": {
+                "name": "jsonff",
+                "version": "1.2.0",
+                "license": "MIT",
+                "author": "Brad Richardson",
+                "maintainer": "everythingfunctional@protonmail.com",
+                "copyright": "2020 Brad Richardson",
+                "description": null,
+                "executable": null,
+                "dependencies": {
+                    "erloff": {
+                        "git": "https://gitlab.com/everythingfunctional/erloff.git",
+                        "tag": "v1.0.0"
+                    },
+                    "iso_varying_string": {
+                        "git": "https://gitlab.com/everythingfunctional/iso_varying_string.git",
+                        "tag": "v1.0.1"
+                    },
+                    "parff": {
+                        "git": "https://gitlab.com/everythingfunctional/parff.git",
+                        "tag": "v1.1.0"
+                    },
+                    "strff": {
+                        "git": "https://gitlab.com/everythingfunctional/strff.git",
+                        "tag": "v1.2.0"
+                    }
+                },
+                "dev-dependencies": {
+                    "vegetables": {
+                        "git": "https://gitlab.com/everythingfunctional/vegetables",
+                        "tag": "v5.0.0"
+                    }
+                },
+                "git": "https://gitlab.com/everythingfunctional/jsonff",
+                "git-tag": null
+            }
+        },
+        "M_calculator": {
+            "latest": {
+                "name": "M_calculator",
+                "version": "0.1.0",
+                "license": "Public Domain",
+                "author": "John S. Urban",
+                "maintainer": "urbanjost@comcast.net",
+                "copyright": "2020 John S. Urban",
+                "description": null,
+                "executable": [
+                    {
+                        "name": "compute",
+                        "source-dir": "app",
+                        "main": "compute.f90"
+                    }
+                ],
+                "dependencies": null,
+                "dev-dependencies": null,
+                "git": "https://github.com/urbanjost/M_calculator",
+                "git-tag": null
+            }
+        },
+        "M_change": {
+            "latest": {
+                "name": "M_change",
+                "version": "0.1.0",
+                "license": "license",
+                "author": "John S. Urban",
+                "maintainer": "urbanjost@comcast.net",
+                "copyright": "2020 John S. Urban",
+                "description": null,
+                "executable": null,
+                "dependencies": null,
+                "dev-dependencies": null,
+                "git": "https://github.com/urbanjost/M_change",
+                "git-tag": null
+            }
+        },
+        "M_color": {
+            "latest": {
+                "name": "M_color",
+                "version": "0.1.0",
+                "license": "Public Domain",
+                "author": "John S. Urban",
+                "maintainer": "urbanjost@comcast.net",
+                "copyright": "2020 John S. Urban",
+                "description": null,
+                "executable": null,
+                "dependencies": null,
+                "dev-dependencies": null,
+                "git": "https://github.com/urbanjost/M_color",
+                "git-tag": null
+            }
+        },
+        "M_history": {
+            "latest": {
+                "name": "M_history",
+                "version": "0.1.0",
+                "license": "license",
+                "author": "John S. Urban",
+                "maintainer": "urbanjost@comcast.net",
+                "copyright": "2020 John S. Urban",
+                "description": null,
+                "executable": null,
+                "dependencies": null,
+                "dev-dependencies": null,
+                "git": "https://github.com/urbanjost/M_history",
+                "git-tag": null
+            }
+        },
+        "M_io": {
+            "latest": {
+                "name": "M_io",
+                "version": "0.1.0",
+                "license": "Public Domain",
+                "author": "John S. Urban",
+                "maintainer": "urbanjost@comcast.net",
+                "copyright": "2020 John S. Urban",
+                "description": null,
+                "executable": null,
+                "dependencies": null,
+                "dev-dependencies": null,
+                "git": "https://github.com/urbanjost/M_io",
+                "git-tag": null
+            }
+        },
+        "M_msg": {
+            "latest": {
+                "name": "M_msg",
+                "version": "0.1.0",
+                "license": "Public Domain",
+                "author": "John S. Urban",
+                "maintainer": "urbanjost@comcast.net",
+                "copyright": "2020 John S. Urban",
+                "description": null,
+                "executable": null,
+                "dependencies": null,
+                "dev-dependencies": null,
+                "git": "https://github.com/urbanjost/M_msg",
+                "git-tag": null
+            }
+        },
+        "M_process": {
+            "latest": {
+                "name": "M_process",
+                "version": "0.1.0",
+                "license": "Public Domain",
+                "author": "John S. Urban",
+                "maintainer": "urbanjost@comcast.net",
+                "copyright": "2020 John S. Urban",
+                "description": null,
+                "executable": [
+                    {
+                        "name": "main",
+                        "source-dir": "app/",
+                        "main": "main.f90"
+                    },
+                    {
+                        "name": "demo_M_process",
+                        "source-dir": "PROGRAMS/demo_M_process",
+                        "main": "demo_m_process.f90"
+                    },
+                    {
+                        "name": "demo_process_readall",
+                        "source-dir": "PROGRAMS/demo_process_readall",
+                        "main": "demo_process_readall.f90"
+                    }
+                ],
+                "dependencies": null,
+                "dev-dependencies": null,
+                "git": "https://github.com/urbanjost/M_process",
+                "git-tag": null
+            }
+        },
+        "M_strings": {
+            "latest": {
+                "name": "M_strings",
+                "version": "0.1.0",
+                "license": "Public Domain",
+                "author": "John S. Urban",
+                "maintainer": "urbanjost@comcast.net",
+                "copyright": "2020 John S. Urban",
+                "description": null,
+                "executable": null,
+                "dependencies": null,
+                "dev-dependencies": null,
+                "git": "https://github.com/urbanjost/M_strings",
+                "git-tag": null
+            }
+        },
+        "M_time": {
+            "latest": {
+                "name": "M_time",
+                "version": "0.1.0",
+                "license": "Public Domain",
+                "author": "John S. Urban",
+                "maintainer": "urbanjost@comcast.net",
+                "copyright": "2020 John Urban",
+                "description": null,
+                "executable": [
+                    {
+                        "name": "box_month",
+                        "source-dir": "PROGRAMS/demo_box_month",
+                        "main": "box_month.f90"
+                    },
+                    {
+                        "name": "d2j",
+                        "source-dir": "PROGRAMS/demo_d2j",
+                        "main": "d2j.f90"
+                    },
+                    {
+                        "name": "d2o",
+                        "source-dir": "PROGRAMS/demo_d2o",
+                        "main": "d2o.f90"
+                    },
+                    {
+                        "name": "d2u",
+                        "source-dir": "PROGRAMS/demo_d2u",
+                        "main": "d2u.f90"
+                    },
+                    {
+                        "name": "d2w",
+                        "source-dir": "PROGRAMS/demo_d2w",
+                        "main": "d2w.f90"
+                    },
+                    {
+                        "name": "date_to_julian",
+                        "source-dir": "PROGRAMS/demo_date_to_julian",
+                        "main": "date_to_julian.f90"
+                    },
+                    {
+                        "name": "date_to_unix",
+                        "source-dir": "PROGRAMS/demo_date_to_unix",
+                        "main": "date_to_unix.f90"
+                    },
+                    {
+                        "name": "days2sec",
+                        "source-dir": "PROGRAMS/demo_days2sec",
+                        "main": "days2sec.f90"
+                    },
+                    {
+                        "name": "dow",
+                        "source-dir": "PROGRAMS/demo_dow",
+                        "main": "dow.f90"
+                    },
+                    {
+                        "name": "easter",
+                        "source-dir": "PROGRAMS/demo_easter",
+                        "main": "easter.f90"
+                    },
+                    {
+                        "name": "fmtdate",
+                        "source-dir": "PROGRAMS/demo_fmtdate",
+                        "main": "fmtdate.f90"
+                    },
+                    {
+                        "name": "fmtdate_usage",
+                        "source-dir": "PROGRAMS/demo_fmtdate_usage",
+                        "main": "fmtdate_usage.f90"
+                    },
+                    {
+                        "name": "guessdate",
+                        "source-dir": "PROGRAMS/demo_guessdate",
+                        "main": "guessdate.f90"
+                    },
+                    {
+                        "name": "j2d",
+                        "source-dir": "PROGRAMS/demo_j2d",
+                        "main": "j2d.f90"
+                    },
+                    {
+                        "name": "julian_to_date",
+                        "source-dir": "PROGRAMS/demo_julian_to_date",
+                        "main": "julian_to_date.f90"
+                    },
+                    {
+                        "name": "mo2d",
+                        "source-dir": "PROGRAMS/demo_mo2d",
+                        "main": "mo2d.f90"
+                    },
+                    {
+                        "name": "mo2v",
+                        "source-dir": "PROGRAMS/demo_mo2v",
+                        "main": "mo2v.f90"
+                    },
+                    {
+                        "name": "moon_fullness",
+                        "source-dir": "PROGRAMS/demo_moon_fullness",
+                        "main": "moon_fullness.f90"
+                    },
+                    {
+                        "name": "now",
+                        "source-dir": "PROGRAMS/demo_now",
+                        "main": "now.f90"
+                    },
+                    {
+                        "name": "o2d",
+                        "source-dir": "PROGRAMS/demo_o2d",
+                        "main": "o2d.f90"
+                    },
+                    {
+                        "name": "ordinal_seconds",
+                        "source-dir": "PROGRAMS/demo_ordinal_seconds",
+                        "main": "ordinal_seconds.f90"
+                    },
+                    {
+                        "name": "ordinal_to_date",
+                        "source-dir": "PROGRAMS/demo_ordinal_to_date",
+                        "main": "ordinal_to_date.f90"
+                    },
+                    {
+                        "name": "phase_of_moon",
+                        "source-dir": "PROGRAMS/demo_phase_of_moon",
+                        "main": "phase_of_moon.f90"
+                    },
+                    {
+                        "name": "sec2days",
+                        "source-dir": "PROGRAMS/demo_sec2days",
+                        "main": "sec2days.f90"
+                    },
+                    {
+                        "name": "u2d",
+                        "source-dir": "PROGRAMS/demo_u2d",
+                        "main": "u2d.f90"
+                    },
+                    {
+                        "name": "unix_to_date",
+                        "source-dir": "PROGRAMS/demo_unix_to_date",
+                        "main": "unix_to_date.f90"
+                    },
+                    {
+                        "name": "v2mo",
+                        "source-dir": "PROGRAMS/demo_v2mo",
+                        "main": "v2mo.f90"
+                    },
+                    {
+                        "name": "w2d",
+                        "source-dir": "PROGRAMS/demo_w2d",
+                        "main": "w2d.f90"
+                    }
+                ],
+                "dependencies": null,
+                "dev-dependencies": null,
+                "git": "https://github.com/urbanjost/M_time",
+                "git-tag": null
+            }
+        },
+        "quaff": {
+            "latest": {
+                "name": "quaff",
+                "version": "0.3.1",
+                "license": "MIT",
+                "author": "Brad Richardson",
+                "maintainer": "everythingfunctional@protonmail.com",
+                "copyright": "2020 Brad Richardson",
+                "description": null,
+                "executable": null,
+                "dependencies": {
+                    "erloff": {
+                        "git": "https://gitlab.com/everythingfunctional/erloff.git",
+                        "tag": "v1.0.0"
+                    },
+                    "iso_varying_string": {
+                        "git": "https://gitlab.com/everythingfunctional/iso_varying_string.git",
+                        "tag": "v1.0.0"
+                    },
+                    "parff": {
+                        "git": "https://gitlab.com/everythingfunctional/parff.git",
+                        "tag": "v1.1.0"
+                    },
+                    "strff": {
+                        "git": "https://gitlab.com/everythingfunctional/strff.git",
+                        "tag": "v1.0.0"
+                    }
+                },
+                "dev-dependencies": {
+                    "quaff_asserts": {
+                        "path": "quaff_asserts"
+                    },
+                    "vegetables": {
+                        "git": "https://gitlab.com/everythingfunctional/vegetables",
+                        "tag": "v5.0.0"
+                    }
+                },
+                "git": "https://gitlab.com/everythingfunctional/quaff",
+                "git-tag": null
+            }
+        },
+        "sqliteff": {
+            "latest": {
+                "name": "sqliteff",
+                "version": "1.0.0",
+                "license": "MIT",
+                "author": "Brad Richardson",
+                "maintainer": "everythingfunctional@protonmail.com",
+                "copyright": "2020 Brad Richardson",
+                "description": null,
+                "executable": null,
+                "dependencies": {
+                    "iso_varying_string": {
+                        "git": "https://gitlab.com/everythingfunctional/iso_varying_string.git",
+                        "tag": "v1.0.0"
+                    }
+                },
+                "dev-dependencies": {
+                    "vegetables": {
+                        "git": "https://gitlab.com/everythingfunctional/vegetables.git",
+                        "tag": "v5.0.0"
+                    }
+                },
+                "git": "https://gitlab.com/everythingfunctional/sqliteff",
+                "git-tag": null
+            }
+        },
+        "strff": {
+            "latest": {
+                "name": "strff",
+                "version": "1.2.2",
+                "license": "MIT",
+                "author": "Brad Richardson",
+                "maintainer": "everythingfunctional@protonmail.com",
+                "copyright": "2020 Brad Richardson",
+                "description": null,
+                "executable": null,
+                "dependencies": {
+                    "iso_varying_string": {
+                        "git": "https://gitlab.com/everythingfunctional/iso_varying_string.git",
+                        "tag": "v1.0.1"
+                    }
+                },
+                "dev-dependencies": {
+                    "vegetables": {
+                        "git": "https://gitlab.com/everythingfunctional/vegetables.git",
+                        "tag": "v5.0.0"
+                    }
+                },
+                "git": "https://gitlab.com/everythingfunctional/strff",
+                "git-tag": null
+            }
+        },
+        "vegetables": {
+            "latest": {
+                "name": "vegetables",
+                "version": "5.1.0",
+                "license": "MIT",
+                "author": "Brad Richardson",
+                "maintainer": "everythingfunctional@protonmail.com",
+                "copyright": "2020 Brad Richardson",
+                "description": null,
+                "executable": [
+                    {
+                        "name": "make_vegetable_driver",
+                        "source-dir": "app",
+                        "main": "main.f90",
+                        "dependencies": {
+                            "parff": {
+                                "git": "https://gitlab.com/everythingfunctional/parff.git",
+                                "tag": "v1.1.0"
+                            }
+                        }
+                    }
+                ],
+                "dependencies": {
+                    "iso_varying_string": {
+                        "git": "https://gitlab.com/everythingfunctional/iso_varying_string.git",
+                        "tag": "v1.0.1"
+                    },
+                    "strff": {
+                        "git": "https://gitlab.com/everythingfunctional/strff.git",
+                        "tag": "v1.1.0"
+                    }
+                },
+                "dev-dependencies": null,
+                "git": "https://gitlab.com/everythingfunctional/vegetables",
+                "git-tag": null
+            }
+        }
+    },
+    "index-date": "Fri Aug  7 13:55:38 2020"
+}
