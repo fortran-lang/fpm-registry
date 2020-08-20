@@ -8,33 +8,59 @@
 [jsonff]
 "latest" = {git="https://gitlab.com/everythingfunctional/jsonff"}
 
+# basic expression parser(LICENSE:PD)
 [M_calculator]
 "latest" = {git="https://github.com/urbanjost/M_calculator"}
 
+# Basic Regular Expressions(LICENSE:PD)
 [M_change]
 "latest" = {git="https://github.com/urbanjost/M_change"}
 
-# [M_cli]
-# "latest" = {git="https://github.com/urbanjost/M_cli"}
+# Unix-style commandline parsing using a prototype command and NAMELIST (STD:f2008 LICENSE:PD)
+[M_CLI]
+"latest" = {git="https://github.com/urbanjost/M_CLI"}
 
+# Unix-style commandline parsing using a prototype command  (STD:f2008 LICENSE:PD)
+[M_CLI2]
+"latest" = {git="https://github.com/urbanjost/M_CLI2"}
+
+# conversions between common color models (LICENSE:PD)
 [M_color]
 "latest" = {git="https://github.com/urbanjost/M_color"}
 
+# basic vector graphics(LICENSE:PD)
+[M_draw]
+"latest" = {git="https://github.com/urbanjost/M_draw"}
+
+# Input History Editor (LICENSE:PD)
 [M_history]
 "latest" = {git="https://github.com/urbanjost/M_history"}
 
+# I/O-related tools(LICENSE:PD)
 [M_io]
 "latest" = {git="https://github.com/urbanjost/M_io"}
 
+# command line parsing using Fortran 95 (LICENSE:PD)
+[M_kracken95]
+"latest" = {git="https://github.com/urbanjost/M_kracken95"}
+
+# converts any standard scalar type to a string (LICENSE:PD)
 [M_msg]
 "latest" = {git="https://github.com/urbanjost/M_msg"}
 
+# ISO_C_BINDING interface to popen(3c) and related system procedures (LICENSE:PD)
 [M_process]
 "latest" = {git="https://github.com/urbanjost/M_process"}
 
+# string manipulation (STD:2008 LICENSE:PD)
 [M_strings]
 "latest" = {git="https://github.com/urbanjost/M_strings"}
 
+# (mostly)POSIX system routine interface (LICENSE:PD)
+[M_system]
+"latest" = {git="https://github.com/urbanjost/M_system"}
+
+# date and time conversion formatting and computation (LICENSE:PD)
 [M_time]
 "latest" = {git="https://github.com/urbanjost/M_time"}
 
