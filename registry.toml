@@ -23,8 +23,8 @@
 [M_color]
 "latest" = {git="https://github.com/urbanjost/M_color"}
 
-#[M_draw]
-#"latest" = {git="https://github.com/urbanjost/M_draw"}
+[M_pixel]
+"latest" = {git="https://github.com/urbanjost/M_pixel"}
 
 [M_history]
 "latest" = {git="https://github.com/urbanjost/M_history"}
