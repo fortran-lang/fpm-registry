@@ -10,63 +10,48 @@
 
 [M_calculator]
 "latest" = {git="https://github.com/urbanjost/M_calculator"}
-#description = "basic expression parser(LICENSE:PD)"
 
 [M_change]
 "latest" = {git="https://github.com/urbanjost/M_change"}
-#description = "Basic Regular Expressions(LICENSE:PD)"
 
 [M_cli]
 "latest" = {git="https://github.com/urbanjost/M_cli"}
-#description = "Unix-style commandline parsing using a prototype command and NAMELIST (STD:f2008 LICENSE:PD)"
 
 [M_cli2]
 "latest" = {git="https://github.com/urbanjost/M_cli2"}
-#description = "Unix-style commandline parsing using a prototype command  (STD:f2008 LICENSE:PD)"
 
 [M_color]
 "latest" = {git="https://github.com/urbanjost/M_color"}
-#description = "conversions between common color models (LICENSE:PD)"
 
 [M_draw]
 "latest" = {git="https://github.com/urbanjost/M_draw"}
-#description = "basic vector drawing (LICENSE:PD)"
 
 [M_history]
 "latest" = {git="https://github.com/urbanjost/M_history"}
-#description = "Input History Editor (LICENSE:PD)"
 
 [M_io]
 "latest" = {git="https://github.com/urbanjost/M_io"}
-#description = "I/O-related tools(LICENSE:PD)"
 
 [M_kracken95]
 "latest" = {git="https://github.com/urbanjost/M_kracken95"}
-#description = " command line parsing using Fortran 95 (LICENSE:PD)"
 
 [M_pixel]
 "latest" = {git="https://github.com/urbanjost/M_pixel"}
-#description = "basic vector drawing into a pixel graphics format(LICENSE:PD)"
 
 [M_system]
 "latest" = {git="https://github.com/urbanjost/M_system"}
-#description = "(mostly)POSIX system routine interface (LICENSE:PD)"
 
 [M_msg]
 "latest" = {git="https://github.com/urbanjost/M_msg"}
-#description = "converts any standard scalar type to a string (LICENSE:PD)"
 
 [M_process]
 "latest" = {git="https://github.com/urbanjost/M_process"}
-#description = "ISO_C_BINDING interface to popen(3c) and related system procedures (LICENSE:PD)"
 
 [M_strings]
 "latest" = {git="https://github.com/urbanjost/M_strings"}
-#description = "string manipulation (STD:2008 LICENSE:PD)"
 
 [M_time]
 "latest" = {git="https://github.com/urbanjost/M_time"}
-#description = "date and time conversion formatting and computation (LICENSE:PD)"
 
 [quaff]
 "latest" = {git="https://gitlab.com/everythingfunctional/quaff"}
