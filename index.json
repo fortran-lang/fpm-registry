@@ -97,7 +97,7 @@
                 "author": "John S. Urban",
                 "maintainer": "urbanjost@comcast.net",
                 "copyright": "2020 John S. Urban",
-                "description": null,
+                "description": "basic numeric expression parser",
                 "executable": [
                     {
                         "name": "compute",
@@ -119,7 +119,7 @@
                 "author": "John S. Urban",
                 "maintainer": "urbanjost@comcast.net",
                 "copyright": "2020 John S. Urban",
-                "description": null,
+                "description": "Basic Regular Expressions",
                 "executable": null,
                 "dependencies": null,
                 "dev-dependencies": null,
@@ -135,7 +135,7 @@
                 "author": "John S. Urban",
                 "maintainer": "urbanjost@comcast.net",
                 "copyright": "2020 John S. Urban",
-                "description": null,
+                "description": "conversions between common color models ",
                 "executable": null,
                 "dependencies": null,
                 "dev-dependencies": null,
@@ -151,7 +151,7 @@
                 "author": "John S. Urban",
                 "maintainer": "urbanjost@comcast.net",
                 "copyright": "2020 John S. Urban",
-                "description": null,
+                "description": "Input History Editor",
                 "executable": null,
                 "dependencies": null,
                 "dev-dependencies": null,
@@ -167,7 +167,7 @@
                 "author": "John S. Urban",
                 "maintainer": "urbanjost@comcast.net",
                 "copyright": "2020 John S. Urban",
-                "description": null,
+                "description": "I/O-related tools",
                 "executable": null,
                 "dependencies": null,
                 "dev-dependencies": null,
@@ -183,7 +183,7 @@
                 "author": "John S. Urban",
                 "maintainer": "urbanjost@comcast.net",
                 "copyright": "2020 John S. Urban",
-                "description": null,
+                "description": "converts any standard scalar type to a string",
                 "executable": null,
                 "dependencies": null,
                 "dev-dependencies": null,
@@ -199,7 +199,7 @@
                 "author": "John S. Urban",
                 "maintainer": "urbanjost@comcast.net",
                 "copyright": "2020 John S. Urban",
-                "description": null,
+                "description": "ISO_C_BINDING interface to popen(3c) and related system procedures ",
                 "executable": [
                     {
                         "name": "main",
@@ -231,7 +231,7 @@
                 "author": "John S. Urban",
                 "maintainer": "urbanjost@comcast.net",
                 "copyright": "2020 John S. Urban",
-                "description": null,
+                "description": "string manipulation (STD:2008)",
                 "executable": null,
                 "dependencies": null,
                 "dev-dependencies": null,
@@ -247,7 +247,7 @@
                 "author": "John S. Urban",
                 "maintainer": "urbanjost@comcast.net",
                 "copyright": "2020 John Urban",
-                "description": null,
+                "description": "date and time conversion formatting and computation ",
                 "executable": [
                     {
                         "name": "box_month",
@@ -525,7 +525,242 @@
                 "git": "https://gitlab.com/everythingfunctional/vegetables",
                 "git-tag": null
             }
+        },
+        "M_cli": {
+            "latest": {
+                "name": "M_CLI",
+                "version": "0.1.0",
+                "license": "Public Domain",
+                "author": "John S. Urban",
+                "maintainer": "urbanjost@comcast.net",
+                "copyright": "2020 John S. Urban",
+                "description": "Unix-style commandline parsing using a prototype command and NAMELIST (STD:f2008)",
+                "executable": [
+                    {
+                        "name": "demo1",
+                        "source-dir": "PROGRAMS/demo1",
+                        "main": "demo1.f90"
+                    },
+                    {
+                        "name": "demo2",
+                        "source-dir": "PROGRAMS/demo2",
+                        "main": "demo2.f90"
+                    },
+                    {
+                        "name": "demo3",
+                        "source-dir": "PROGRAMS/demo3",
+                        "main": "demo3.f90"
+                    },
+                    {
+                        "name": "demo4",
+                        "source-dir": "PROGRAMS/demo4",
+                        "main": "demo4.f90"
+                    },
+                    {
+                        "name": "demo5",
+                        "source-dir": "PROGRAMS/demo5",
+                        "main": "demo5.f90"
+                    },
+                    {
+                        "name": "demo6",
+                        "source-dir": "PROGRAMS/demo6",
+                        "main": "demo6.f90"
+                    },
+                    {
+                        "name": "demo7",
+                        "source-dir": "PROGRAMS/demo7",
+                        "main": "demo7.f90"
+                    },
+                    {
+                        "name": "demo_check_commandline",
+                        "source-dir": "PROGRAMS/demos/check_commandline",
+                        "main": "check_commandline.f90"
+                    },
+                    {
+                        "name": "demo_commandline",
+                        "source-dir": "PROGRAMS/demos/commandline",
+                        "main": "commandline.f90"
+                    },
+                    {
+                        "name": "demo_M_CLI",
+                        "source-dir": "PROGRAMS/demos/M_CLI",
+                        "main": "M_CLI.f90"
+                    },
+                    {
+                        "name": "demo_print_dictionary",
+                        "source-dir": "PROGRAMS/demos/print_dictionary",
+                        "main": "print_dictionary.f90"
+                    }
+                ],
+                "dependencies": null,
+                "dev-dependencies": null,
+                "git": "https://github.com/urbanjost/M_cli",
+                "git-tag": null
+            }
+        },
+        "M_cli2": {
+            "latest": {
+                "name": "M_CLI2",
+                "version": "0.1.0",
+                "license": "Public Domain",
+                "author": "John S. Urban",
+                "maintainer": "urbanjost@comcast.net",
+                "copyright": "2020 John S. Urban",
+                "description": "Unix-style commandline parsing using a prototype command  (STD:f2008)",
+                "executable": [
+                    {
+                        "name": "demo1",
+                        "source-dir": "PROGRAMS/demo1",
+                        "main": "demo1.f90"
+                    },
+                    {
+                        "name": "demo2",
+                        "source-dir": "PROGRAMS/demo2",
+                        "main": "demo2.f90"
+                    },
+                    {
+                        "name": "demo3",
+                        "source-dir": "PROGRAMS/demo3",
+                        "main": "demo3.f90"
+                    },
+                    {
+                        "name": "demo4",
+                        "source-dir": "PROGRAMS/demo4",
+                        "main": "demo4.f90"
+                    },
+                    {
+                        "name": "demo5",
+                        "source-dir": "PROGRAMS/demo5",
+                        "main": "demo5.f90"
+                    },
+                    {
+                        "name": "demo6",
+                        "source-dir": "PROGRAMS/demo6",
+                        "main": "demo6.f90"
+                    },
+                    {
+                        "name": "demo7",
+                        "source-dir": "PROGRAMS/demo7",
+                        "main": "demo7.f90"
+                    },
+                    {
+                        "name": "demo8",
+                        "source-dir": "PROGRAMS/demo8",
+                        "main": "demo8.f90"
+                    },
+                    {
+                        "name": "demo9",
+                        "source-dir": "PROGRAMS/demo9",
+                        "main": "demo9.f90"
+                    },
+                    {
+                        "name": "get_args_fixed_size",
+                        "source-dir": "PROGRAMS/demos/get_args_fixed_size",
+                        "main": "get_args_fixed_size.f90"
+                    },
+                    {
+                        "name": "get_args_fixed_length",
+                        "source-dir": "PROGRAMS/demos/get_args_fixed_length",
+                        "main": "get_args_fixed_length.f90"
+                    },
+                    {
+                        "name": "get_args",
+                        "source-dir": "PROGRAMS/demos/get_args",
+                        "main": "get_args.f90"
+                    },
+                    {
+                        "name": "set_args",
+                        "source-dir": "PROGRAMS/demos/set_args",
+                        "main": "set_args.f90"
+                    },
+                    {
+                        "name": "M_CLI2",
+                        "source-dir": "PROGRAMS/demos/M_CLI2",
+                        "main": "M_CLI2.f90"
+                    }
+                ],
+                "dependencies": null,
+                "dev-dependencies": null,
+                "git": "https://github.com/urbanjost/M_cli2",
+                "git-tag": null
+            }
+        },
+        "M_draw": {
+            "latest": {
+                "name": "M_draw",
+                "version": "0.1.0",
+                "license": "Public Domain",
+                "author": "John S. Urban",
+                "maintainer": "urbanjost@comcast.net",
+                "copyright": "2020 John S. Urban",
+                "description": "basic vector graphics package",
+                "executable": [
+                    {
+                        "name": "h2v",
+                        "source-dir": "PROGRAMS/MAKE_HERSHEY",
+                        "main": "h2v.c"
+                    }
+                ],
+                "dependencies": null,
+                "dev-dependencies": null,
+                "git": "https://github.com/urbanjost/M_draw",
+                "git-tag": null
+            }
+        },
+        "M_kracken95": {
+            "latest": {
+                "name": "M_kracken95",
+                "version": "0.1.0",
+                "license": "Public Domain",
+                "author": "John S. Urban",
+                "maintainer": "urbanjost@comcast.net",
+                "copyright": "2020 John S. Urban",
+                "description": " command line parsing using Fortran 95 (LICENSE:PD)",
+                "executable": null,
+                "dependencies": null,
+                "dev-dependencies": null,
+                "git": "https://github.com/urbanjost/M_kracken95",
+                "git-tag": null
+            }
+        },
+        "M_pixel": {
+            "latest": {
+                "name": "M_pixel",
+                "version": "0.1.0",
+                "license": "Public Domain",
+                "author": "John S. Urban",
+                "maintainer": "urbanjost@comcast.net",
+                "copyright": "2020 John Urban",
+                "description": "basic vector drawing into a pixel graphics format",
+                "executable": [
+                    {
+                        "name": "slices",
+                        "source-dir": "app/slices",
+                        "main": "pixel_slices.f90"
+                    }
+                ],
+                "dependencies": null,
+                "dev-dependencies": null,
+                "git": "https://github.com/urbanjost/M_pixel",
+                "git-tag": null
+            }
+        },
+        "M_system": {
+            "latest": {
+                "name": "M_system",
+                "version": "0.1.0",
+                "license": "Public Domain",
+                "author": "John S. Urban",
+                "maintainer": "urbanjost@comcast.net",
+                "copyright": "2020 John S. Urban",
+                "description": "(mostly)POSIX system routine interface",
+                "executable": null,
+                "dependencies": null,
+                "dev-dependencies": null,
+                "git": "https://github.com/urbanjost/M_system",
+                "git-tag": null
+            }
         }
     },
-    "index-date": "Fri Aug  7 13:55:38 2020"
+    "index-date": "Fri Sep  4 07:41:24 2020"
 }
