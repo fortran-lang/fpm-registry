@@ -62,5 +62,9 @@
 [strff]
 "latest" = {git="https://gitlab.com/everythingfunctional/strff"}
 
+[toml-f]
+"0.2" = {git="https://github.com/toml-f/toml-f", tag="v0.2"}
+"latest" = {git="https://github.com/toml-f/toml-f"}
+
 [vegetables]
 "latest" = {git="https://gitlab.com/everythingfunctional/vegetables"}
