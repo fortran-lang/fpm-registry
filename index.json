@@ -760,7 +760,23 @@
                 "git": "https://github.com/urbanjost/M_system",
                 "git-tag": null
             }
+        },
+        "pointsets": {
+            "latest": {
+                "name": "pointsets",
+                "version": "0.1.0",
+                "license": "MIT",
+                "author": "Arjen Markus",
+                "maintainer": "arjen.markus895@gmail.com",
+                "copyright": "2020 Arjen Markus",
+                "description": null,
+                "executable": null,
+                "dependencies": null,
+                "dev-dependencies": null,
+                "git": "https://github.com/arjenmarkus/pointsets",
+                "git-tag": null
+            }
         }
     },
-    "index-date": "Fri Sep  4 07:41:24 2020"
+    "index-date": "Mon Sep 14 21:07:06 2020"
 }
