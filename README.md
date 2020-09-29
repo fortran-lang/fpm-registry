@@ -46,4 +46,4 @@ python load_registry.py
 ## Registry
 
 When a pull request is merged it will then appear at the
-[`fpm registry`](https://fortran-lang.org/packages/fpm)
+[`fpm registry`](https://fortran-lang.org/packages/fpm).
