@@ -8,7 +8,7 @@ packages for the [fortran-lang](https://fortran-lang.org) site.
 Your new registry submittal should first meet the 
 [general package criteria](https://github.com/fortran-lang/fortran-lang.org/blob/master/PACKAGES.md)
 required of any package 
-listed at the [packages listing](https://fortran-lang.org/packages)
+listed at the [packages listing](https://fortran-lang.org/packages).
 
 Please submit a pull request against this repository, add the new package into the file
 [registry.toml](./registry.toml)
