@@ -1,7 +1,7 @@
 # fpm-registry
 
 Centralized registry of [fpm](https://github.com/fortran-lang/fpm)
-packages for the [fortran-lang](https://fortran-lang.org) site
+packages for the [fortran-lang](https://fortran-lang.org) site.
 
 ## How to submit a new package
 
