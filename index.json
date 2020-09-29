@@ -492,7 +492,7 @@
         "vegetables": {
             "latest": {
                 "name": "vegetables",
-                "version": "5.1.0",
+                "version": "5.1.1",
                 "license": "MIT",
                 "author": "Brad Richardson",
                 "maintainer": "everythingfunctional@protonmail.com",
@@ -570,6 +570,11 @@
                         "name": "demo7",
                         "source-dir": "PROGRAMS/demo7",
                         "main": "demo7.f90"
+                    },
+                    {
+                        "name": "demo9",
+                        "source-dir": "PROGRAMS/demo9",
+                        "main": "segments.f90"
                     },
                     {
                         "name": "demo_check_commandline",
@@ -778,5 +783,5 @@
             }
         }
     },
-    "index-date": "Mon Sep 14 21:07:06 2020"
+    "index-date": "Tue Sep 29 18:16:10 2020"
 }
