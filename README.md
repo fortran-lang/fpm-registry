@@ -1,12 +1,21 @@
 # fpm-registry
 
-Centralized registry of fpm packages
+Centralized registry of [fpm](https://github.com/fortran-lang/fpm)
+packages for the [fortran-lang](https://fortran-lang.org) site
 
 ## How to submit a new package
 
+Your new registry submittal should first meet the 
+[general package criteria](https://github.com/fortran-lang/fortran-lang.org/blob/master/PACKAGES.md)
+required of any package 
+listed at [the  packages listing](https://fortran-lang.org/packages)
+
 Please submit a pull request against this repository, add the new package into the file
-[registry.toml](./registry.toml) in alphabetical order. Explicitly list each
-version using the `tag` keyword, otherwise the master branch will be used. An
+[registry.toml](./registry.toml)
+in alphabetical order. Explicitly list each
+version using the 
+[`tag`](https://docs.github.com/en/free-pro-team@latest/desktop/contributing-and-collaborating-using-github-desktop/managing-tags)
+keyword, otherwise the master branch will be used. An
 example:
 
 ```toml
@@ -33,3 +42,8 @@ To validate `registry.toml`, run:
 ```
 python load_registry.py
 ```
+
+## Registry
+
+When a pull request is merged it will then appear at the
+[fpm Registry](https://github.com/fortran-lang/fpm-registry)
