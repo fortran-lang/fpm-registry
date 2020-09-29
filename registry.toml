@@ -26,6 +26,9 @@
 [M_draw]
 "latest" = {git="https://github.com/urbanjost/M_draw"}
 
+[M_escape]
+"latest" = {git="https://github.com/urbanjost/M_escape"}
+
 [M_history]
 "latest" = {git="https://github.com/urbanjost/M_history"}
 
