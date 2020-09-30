@@ -781,7 +781,34 @@
                 "git": "https://github.com/arjenmarkus/pointsets",
                 "git-tag": null
             }
+        },
+        "M_escape": {
+            "latest": {
+                "name": "M_escape",
+                "version": "0.1.0",
+                "license": "Public Domain",
+                "author": "John S. Urban",
+                "maintainer": "urbanjost@comcast.net",
+                "copyright": "2020 John S. Urban",
+                "description": "ANSI control escape sequences using an XML-like syntax for attributes like color on video displays and emulators",
+                "executable": [
+                    {
+                        "name": "plain",
+                        "source-dir": "app/plain",
+                        "main": "plain.f90"
+                    },
+                    {
+                        "name": "light",
+                        "source-dir": "app/light",
+                        "main": "light.f90"
+                    }
+                ],
+                "dependencies": null,
+                "dev-dependencies": null,
+                "git": "https://github.com/urbanjost/M_escape",
+                "git-tag": null
+            }
         }
     },
-    "index-date": "Tue Sep 29 18:16:10 2020"
+    "index-date": "Wed Sep 30 09:40:41 2020"
 }
