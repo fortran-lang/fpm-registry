@@ -15,7 +15,7 @@ against this repository, adding the new package into the file
 [registry.toml](./registry.toml)
 in alphabetical order. It is recommended that you explicitly list each version using the 
 [`tag`](https://docs.github.com/en/free-pro-team@latest/desktop/contributing-and-collaborating-using-github-desktop/managing-tags)
-keyword, otherwise the master branch will be used. An example:
+keyword, otherwise the tip of the master branch will be used. An example:
 
 ```toml
 [datetime]
