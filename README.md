@@ -55,4 +55,4 @@ guidelines listed here but terms like **fpm**, **PR**, **toml**, and
 **python** are putting you off from registering your package, please open an
 [issue](https://github.com/fortran-lang/fpm-registry/issues) at the
 **fpm Registry** site and list your Repository and ask for help.  Get as
-far as you can and identify where you got stuck.
+far as you can and identify where you got stuck. We will try to help.
