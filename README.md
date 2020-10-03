@@ -7,22 +7,21 @@ packages for the [fortran-lang](https://fortran-lang.org) site.
 
 Your new registry submittal should first meet the 
 [general package criteria](https://github.com/fortran-lang/fortran-lang.org/blob/master/PACKAGES.md)
-required of any package 
-listed at the [packages listing](https://fortran-lang.org/packages).
+required of any package listed at the
+[packages listing](https://fortran-lang.org/packages).
 
-Please submit a pull request against this repository, add the new package into the file
+Please submit a **PR** or
+[pull request](https://egghead.io/series/how-to-contribute-to-an-open-source-project-on-github)
+against this repository, adding the new package into the file
 [registry.toml](./registry.toml)
-in alphabetical order. Explicitly list each
-version using the 
+in alphabetical order. Explicitly list each version using the 
 [`tag`](https://docs.github.com/en/free-pro-team@latest/desktop/contributing-and-collaborating-using-github-desktop/managing-tags)
-keyword, otherwise the master branch will be used. An
-example:
+keyword, otherwise the master branch will be used. An example:
 
 ```toml
 [datetime]
 "1.7.0" = {git="https://github.com/wavebitscientific/datetime-fortran", tag="v1.7.0"}
 "latest" = {git="https://github.com/wavebitscientific/datetime-fortran"}
-```
 
 ## Test your edits
 
@@ -47,3 +46,14 @@ python load_registry.py
 
 When a pull request is merged it will then appear at the
 [`fpm registry`](https://fortran-lang.org/packages/fpm).
+
+## Are you kidding?
+
+If you have a great Fortran package you have managed to get onto
+**github** or another **git** repository that you are interested
+in setting up as a registered **fpm** package that adheres to the
+guidelines listed here but terms like **fpm**, **PR**, **toml**, and
+**python** are putting you off from registering your package open an
+[issue](https://github.com/fortran-lang/fpm-registry/issues) at the
+**fpm Registry** site and list your Repository and ask for help.  Get as
+far as you can and identify where you got stuck.
