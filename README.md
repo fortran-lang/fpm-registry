@@ -10,7 +10,7 @@ Your new registry submittal should first meet the
 required of any package listed at the
 [packages listing](https://fortran-lang.org/packages).
 
-Please submit a Pull Request ([PR](https://egghead.io/series/how-to-contribute-to-an-open-source-project-on-github))
+Please submit a (pull request)(https://egghead.io/series/how-to-contribute-to-an-open-source-project-on-github))
 against this repository, adding the new package into the file
 [registry.toml](./registry.toml)
 in alphabetical order. It is recommended that you explicitly list each version using the 
@@ -22,7 +22,6 @@ keyword, otherwise the tip of the master branch will be used. An example:
 "1.7.0" = {git="https://github.com/wavebitscientific/datetime-fortran", tag="v1.7.0"}
 "latest" = {git="https://github.com/wavebitscientific/datetime-fortran"}
 ```
-
 ## Test your edits
 
 Before submitting the pull request, you can validate the `registry.toml` file
@@ -58,6 +57,6 @@ far as you can and identify where you got stuck. We are always happy to help.
 
 The 
 [Fortran Discourse](https://fortran-lang.discourse.group/t/welcome-to-discourse)
-forum is another valuable avenue for help as well as general
-discussions and announcements related to the 
+forum is another valuable avenue for help as well as for general
+discussion and announcements related to the 
 [Fortran Programming Language](https://fortran-lang.org).
