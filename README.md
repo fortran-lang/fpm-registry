@@ -46,7 +46,7 @@ python load_registry.py
 When a pull request is merged it will then appear at the
 [`fpm registry`](https://fortran-lang.org/packages/fpm).
 
-## Are you kidding?
+## How to request help
 
 If you have a great Fortran package you have managed to get onto
 **github** or another **git** repository that you are interested
