@@ -13,7 +13,7 @@ required of any package listed at the
 Please submit a Pull Request ([PR](https://egghead.io/series/how-to-contribute-to-an-open-source-project-on-github))
 against this repository, adding the new package into the file
 [registry.toml](./registry.toml)
-in alphabetical order. Explicitly list each version using the 
+in alphabetical order. It is recommended that you explicitly list each version using the 
 [`tag`](https://docs.github.com/en/free-pro-team@latest/desktop/contributing-and-collaborating-using-github-desktop/managing-tags)
 keyword, otherwise the master branch will be used. An example:
 
