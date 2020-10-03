@@ -52,7 +52,7 @@ If you have a great Fortran package you have managed to get onto
 **github** or another **git** repository that you are interested
 in setting up as a registered **fpm** package that adheres to the
 guidelines listed here but terms like **fpm**, **PR**, **toml**, and
-**python** are putting you off from registering your package open an
+**python** are putting you off from registering your package, please open an
 [issue](https://github.com/fortran-lang/fpm-registry/issues) at the
 **fpm Registry** site and list your Repository and ask for help.  Get as
 far as you can and identify where you got stuck.
