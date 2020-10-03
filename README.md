@@ -21,6 +21,7 @@ keyword, otherwise the tip of the master branch will be used. An example:
 [datetime]
 "1.7.0" = {git="https://github.com/wavebitscientific/datetime-fortran", tag="v1.7.0"}
 "latest" = {git="https://github.com/wavebitscientific/datetime-fortran"}
+```
 
 ## Test your edits
 
@@ -54,3 +55,9 @@ in registering as an **fpm** package but terms like **fpm**, **PR**, **toml**, a
 [issue](https://github.com/fortran-lang/fpm-registry/issues) at the
 **fpm Registry** site listing your Repository and let us know how we can help. Get as
 far as you can and identify where you got stuck. We are always happy to help.
+
+The 
+[Fortran Discourse](https://fortran-lang.discourse.group/t/welcome-to-discourse)
+forum is another valuable avenue for help as well as general
+discussions and announcements related to the 
+[Fortran Programming Language](https://fortran-lang.org).
