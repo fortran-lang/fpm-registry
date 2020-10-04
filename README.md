@@ -10,7 +10,7 @@ Your new registry submittal should first meet the
 required of any package listed at the
 [packages listing](https://fortran-lang.org/packages).
 
-Please submit a (pull request)(https://egghead.io/series/how-to-contribute-to-an-open-source-project-on-github))
+Please submit a [pull request](https://egghead.io/series/how-to-contribute-to-an-open-source-project-on-github)
 against this repository, adding the new package into the file
 [registry.toml](./registry.toml)
 in alphabetical order. It is recommended that you explicitly list each version using the 
