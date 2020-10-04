@@ -51,7 +51,7 @@
 ￼"latest" = {git="https://github.com/urbanjost/M_strings"}
 
 [M_system]
-￼"latest" = {git="https://github.com/urbanjost/M_system"}￼
+￼"latest" = {git="https://github.com/urbanjost/M_system"}
 
 [M_time]
 "latest" = {git="https://github.com/urbanjost/M_time"}
