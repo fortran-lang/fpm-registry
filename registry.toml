@@ -38,20 +38,20 @@
 [M_kracken95]
 "latest" = {git="https://github.com/urbanjost/M_kracken95"}
 
-[M_pixel]
-"latest" = {git="https://github.com/urbanjost/M_pixel"}
-
-[M_system]
-"latest" = {git="https://github.com/urbanjost/M_system"}
-
 [M_msg]
 "latest" = {git="https://github.com/urbanjost/M_msg"}
+
+[M_pixel]
+"latest" = {git="https://github.com/urbanjost/M_pixel"}
 
 [M_process]
 "latest" = {git="https://github.com/urbanjost/M_process"}
 
 [M_strings]
-"latest" = {git="https://github.com/urbanjost/M_strings"}
+   "latest" = {git="https://github.com/urbanjost/M_strings"}
+
+[M_system]
+   "latest" = {git="https://github.com/urbanjost/M_system"}
 
 [M_time]
 "latest" = {git="https://github.com/urbanjost/M_time"}
