@@ -42,7 +42,7 @@ def check_fpm_toml(contents):
                      "dev-dependencies"]
 
     # Optionally present, not copied to json
-    other_keys = ["test", "library"]
+    other_keys = ["test", "library", "build", "extra"]
 
     # Check for required keys
     for key in required_keys:
