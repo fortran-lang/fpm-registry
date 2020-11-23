@@ -106,7 +106,11 @@
                     }
                 ],
                 "dependencies": null,
-                "dev-dependencies": null,
+                "dev-dependencies": {
+                    "M_msg": {
+                        "git": "https://github.com/urbanjost/M_msg.git"
+                    }
+                },
                 "git": "https://github.com/urbanjost/M_calculator",
                 "git-tag": null
             }
@@ -120,7 +124,13 @@
                 "maintainer": "urbanjost@comcast.net",
                 "copyright": "2020 John S. Urban",
                 "description": "Basic Regular Expressions",
-                "executable": null,
+                "executable": [
+                    {
+                        "name": "seek",
+                        "source-dir": "app",
+                        "main": "seek.f90"
+                    }
+                ],
                 "dependencies": null,
                 "dev-dependencies": null,
                 "git": "https://github.com/urbanjost/M_change",
@@ -137,7 +147,11 @@
                 "copyright": "2020 John S. Urban",
                 "description": "conversions between common color models ",
                 "executable": null,
-                "dependencies": null,
+                "dependencies": {
+                    "M_msg": {
+                        "git": "https://github.com/urbanjost/M_msg.git"
+                    }
+                },
                 "dev-dependencies": null,
                 "git": "https://github.com/urbanjost/M_color",
                 "git-tag": null
@@ -205,20 +219,14 @@
                         "name": "main",
                         "source-dir": "app/",
                         "main": "main.f90"
-                    },
-                    {
-                        "name": "demo_M_process",
-                        "source-dir": "PROGRAMS/demo_M_process",
-                        "main": "demo_m_process.f90"
-                    },
-                    {
-                        "name": "demo_process_readall",
-                        "source-dir": "PROGRAMS/demo_process_readall",
-                        "main": "demo_process_readall.f90"
                     }
                 ],
                 "dependencies": null,
-                "dev-dependencies": null,
+                "dev-dependencies": {
+                    "M_msg": {
+                        "git": "https://github.com/urbanjost/M_msg.git"
+                    }
+                },
                 "git": "https://github.com/urbanjost/M_process",
                 "git-tag": null
             }
@@ -232,9 +240,354 @@
                 "maintainer": "urbanjost@comcast.net",
                 "copyright": "2020 John S. Urban",
                 "description": "string manipulation (STD:2008)",
-                "executable": null,
+                "executable": [
+                    {
+                        "name": "demo_adjustc",
+                        "source-dir": "demo",
+                        "main": "adjustc.f90"
+                    },
+                    {
+                        "name": "demo_atleast",
+                        "source-dir": "demo",
+                        "main": "atleast.f90"
+                    },
+                    {
+                        "name": "demo_base",
+                        "source-dir": "demo",
+                        "main": "base.f90"
+                    },
+                    {
+                        "name": "demo_c2s",
+                        "source-dir": "demo",
+                        "main": "c2s.f90"
+                    },
+                    {
+                        "name": "demo_change",
+                        "source-dir": "demo",
+                        "main": "change.f90"
+                    },
+                    {
+                        "name": "demo_chomp",
+                        "source-dir": "demo",
+                        "main": "chomp.f90"
+                    },
+                    {
+                        "name": "demo_codebase",
+                        "source-dir": "demo",
+                        "main": "codebase.f90"
+                    },
+                    {
+                        "name": "demo_compact",
+                        "source-dir": "demo",
+                        "main": "compact.f90"
+                    },
+                    {
+                        "name": "demo_crop",
+                        "source-dir": "demo",
+                        "main": "crop.f90"
+                    },
+                    {
+                        "name": "demo_decodebase",
+                        "source-dir": "demo",
+                        "main": "decodebase.f90"
+                    },
+                    {
+                        "name": "demo_delim",
+                        "source-dir": "demo",
+                        "main": "delim.f90"
+                    },
+                    {
+                        "name": "demo_describe",
+                        "source-dir": "demo",
+                        "main": "describe.f90"
+                    },
+                    {
+                        "name": "demo_expand",
+                        "source-dir": "demo",
+                        "main": "expand.f90"
+                    },
+                    {
+                        "name": "demo_fmt",
+                        "source-dir": "demo",
+                        "main": "fmt.f90"
+                    },
+                    {
+                        "name": "demo_fortran_name",
+                        "source-dir": "demo",
+                        "main": "fortran_name.f90"
+                    },
+                    {
+                        "name": "demo_getvals",
+                        "source-dir": "demo",
+                        "main": "getvals.f90"
+                    },
+                    {
+                        "name": "demo_indent",
+                        "source-dir": "demo",
+                        "main": "indent.f90"
+                    },
+                    {
+                        "name": "demo_isalnum",
+                        "source-dir": "demo",
+                        "main": "isalnum.f90"
+                    },
+                    {
+                        "name": "demo_isalpha",
+                        "source-dir": "demo",
+                        "main": "isalpha.f90"
+                    },
+                    {
+                        "name": "demo_isascii",
+                        "source-dir": "demo",
+                        "main": "isascii.f90"
+                    },
+                    {
+                        "name": "demo_isblank",
+                        "source-dir": "demo",
+                        "main": "isblank.f90"
+                    },
+                    {
+                        "name": "demo_iscntrl",
+                        "source-dir": "demo",
+                        "main": "iscntrl.f90"
+                    },
+                    {
+                        "name": "demo_isdigit",
+                        "source-dir": "demo",
+                        "main": "isdigit.f90"
+                    },
+                    {
+                        "name": "demo_isgraph",
+                        "source-dir": "demo",
+                        "main": "isgraph.f90"
+                    },
+                    {
+                        "name": "demo_islower",
+                        "source-dir": "demo",
+                        "main": "islower.f90"
+                    },
+                    {
+                        "name": "demo_isnumber",
+                        "source-dir": "demo",
+                        "main": "isnumber.f90"
+                    },
+                    {
+                        "name": "demo_isprint",
+                        "source-dir": "demo",
+                        "main": "isprint.f90"
+                    },
+                    {
+                        "name": "demo_ispunct",
+                        "source-dir": "demo",
+                        "main": "ispunct.f90"
+                    },
+                    {
+                        "name": "demo_isspace",
+                        "source-dir": "demo",
+                        "main": "isspace.f90"
+                    },
+                    {
+                        "name": "demo_isupper",
+                        "source-dir": "demo",
+                        "main": "isupper.f90"
+                    },
+                    {
+                        "name": "demo_isxdigit",
+                        "source-dir": "demo",
+                        "main": "isxdigit.f90"
+                    },
+                    {
+                        "name": "demo_join",
+                        "source-dir": "demo",
+                        "main": "join.f90"
+                    },
+                    {
+                        "name": "demo_lenset",
+                        "source-dir": "demo",
+                        "main": "lenset.f90"
+                    },
+                    {
+                        "name": "demo_len_white",
+                        "source-dir": "demo",
+                        "main": "len_white.f90"
+                    },
+                    {
+                        "name": "demo_listout",
+                        "source-dir": "demo",
+                        "main": "listout.f90"
+                    },
+                    {
+                        "name": "demo_lower",
+                        "source-dir": "demo",
+                        "main": "lower.f90"
+                    },
+                    {
+                        "name": "demo_matchw",
+                        "source-dir": "demo",
+                        "main": "matchw.f90"
+                    },
+                    {
+                        "name": "demo_merge_str",
+                        "source-dir": "demo",
+                        "main": "merge_str.f90"
+                    },
+                    {
+                        "name": "demo_modif",
+                        "source-dir": "demo",
+                        "main": "modif.f90"
+                    },
+                    {
+                        "name": "demo_msg",
+                        "source-dir": "demo",
+                        "main": "msg.f90"
+                    },
+                    {
+                        "name": "demo_M_strings",
+                        "source-dir": "demo",
+                        "main": "M_strings.f90"
+                    },
+                    {
+                        "name": "demo_M_strings_oop",
+                        "source-dir": "demo",
+                        "main": "M_strings_oop.f90"
+                    },
+                    {
+                        "name": "demo_noesc",
+                        "source-dir": "demo",
+                        "main": "noesc.f90"
+                    },
+                    {
+                        "name": "demo_nospace",
+                        "source-dir": "demo",
+                        "main": "nospace.f90"
+                    },
+                    {
+                        "name": "demo_notabs",
+                        "source-dir": "demo",
+                        "main": "notabs.f90"
+                    },
+                    {
+                        "name": "demo_quote",
+                        "source-dir": "demo",
+                        "main": "quote.f90"
+                    },
+                    {
+                        "name": "demo_replace",
+                        "source-dir": "demo",
+                        "main": "replace.f90"
+                    },
+                    {
+                        "name": "demo_reverse",
+                        "source-dir": "demo",
+                        "main": "reverse.f90"
+                    },
+                    {
+                        "name": "demo_rotate13",
+                        "source-dir": "demo",
+                        "main": "rotate13.f90"
+                    },
+                    {
+                        "name": "demo_s2c",
+                        "source-dir": "demo",
+                        "main": "s2c.f90"
+                    },
+                    {
+                        "name": "demo_s2v",
+                        "source-dir": "demo",
+                        "main": "s2v.f90"
+                    },
+                    {
+                        "name": "demo_s2vs",
+                        "source-dir": "demo",
+                        "main": "s2vs.f90"
+                    },
+                    {
+                        "name": "demo_sep",
+                        "source-dir": "demo",
+                        "main": "sep.f90"
+                    },
+                    {
+                        "name": "demo_split2020",
+                        "source-dir": "demo",
+                        "main": "split2020.f90"
+                    },
+                    {
+                        "name": "demo_split",
+                        "source-dir": "demo",
+                        "main": "split.f90"
+                    },
+                    {
+                        "name": "demo_stretch",
+                        "source-dir": "demo",
+                        "main": "stretch.f90"
+                    },
+                    {
+                        "name": "demo_string_to_value",
+                        "source-dir": "demo",
+                        "main": "string_to_value.f90"
+                    },
+                    {
+                        "name": "demo_string_to_values",
+                        "source-dir": "demo",
+                        "main": "string_to_values.f90"
+                    },
+                    {
+                        "name": "demo_strtok",
+                        "source-dir": "demo",
+                        "main": "strtok.f90"
+                    },
+                    {
+                        "name": "demo_substitute",
+                        "source-dir": "demo",
+                        "main": "substitute.f90"
+                    },
+                    {
+                        "name": "demo_switch",
+                        "source-dir": "demo",
+                        "main": "switch.f90"
+                    },
+                    {
+                        "name": "demo_transliterate",
+                        "source-dir": "demo",
+                        "main": "transliterate.f90"
+                    },
+                    {
+                        "name": "demo_unquote",
+                        "source-dir": "demo",
+                        "main": "unquote.f90"
+                    },
+                    {
+                        "name": "demo_upper",
+                        "source-dir": "demo",
+                        "main": "upper.f90"
+                    },
+                    {
+                        "name": "demo_upper_quoted",
+                        "source-dir": "demo",
+                        "main": "upper_quoted.f90"
+                    },
+                    {
+                        "name": "demo_v2s",
+                        "source-dir": "demo",
+                        "main": "v2s.f90"
+                    },
+                    {
+                        "name": "demo_value_to_string",
+                        "source-dir": "demo",
+                        "main": "value_to_string.f90"
+                    },
+                    {
+                        "name": "demo_visible",
+                        "source-dir": "demo",
+                        "main": "visible.f90"
+                    }
+                ],
                 "dependencies": null,
-                "dev-dependencies": null,
+                "dev-dependencies": {
+                    "M_msg": {
+                        "git": "https://github.com/urbanjost/M_msg.git"
+                    }
+                },
                 "git": "https://github.com/urbanjost/M_strings",
                 "git-tag": null
             }
@@ -251,147 +604,151 @@
                 "executable": [
                     {
                         "name": "box_month",
-                        "source-dir": "PROGRAMS/demo_box_month",
+                        "source-dir": "demo",
                         "main": "box_month.f90"
                     },
                     {
                         "name": "d2j",
-                        "source-dir": "PROGRAMS/demo_d2j",
+                        "source-dir": "demo",
                         "main": "d2j.f90"
                     },
                     {
                         "name": "d2o",
-                        "source-dir": "PROGRAMS/demo_d2o",
+                        "source-dir": "demo",
                         "main": "d2o.f90"
                     },
                     {
                         "name": "d2u",
-                        "source-dir": "PROGRAMS/demo_d2u",
+                        "source-dir": "demo",
                         "main": "d2u.f90"
                     },
                     {
                         "name": "d2w",
-                        "source-dir": "PROGRAMS/demo_d2w",
+                        "source-dir": "demo",
                         "main": "d2w.f90"
                     },
                     {
                         "name": "date_to_julian",
-                        "source-dir": "PROGRAMS/demo_date_to_julian",
+                        "source-dir": "demo",
                         "main": "date_to_julian.f90"
                     },
                     {
                         "name": "date_to_unix",
-                        "source-dir": "PROGRAMS/demo_date_to_unix",
+                        "source-dir": "demo",
                         "main": "date_to_unix.f90"
                     },
                     {
                         "name": "days2sec",
-                        "source-dir": "PROGRAMS/demo_days2sec",
+                        "source-dir": "demo",
                         "main": "days2sec.f90"
                     },
                     {
                         "name": "dow",
-                        "source-dir": "PROGRAMS/demo_dow",
+                        "source-dir": "demo",
                         "main": "dow.f90"
                     },
                     {
                         "name": "easter",
-                        "source-dir": "PROGRAMS/demo_easter",
+                        "source-dir": "demo",
                         "main": "easter.f90"
                     },
                     {
                         "name": "fmtdate",
-                        "source-dir": "PROGRAMS/demo_fmtdate",
+                        "source-dir": "demo",
                         "main": "fmtdate.f90"
                     },
                     {
                         "name": "fmtdate_usage",
-                        "source-dir": "PROGRAMS/demo_fmtdate_usage",
+                        "source-dir": "demo",
                         "main": "fmtdate_usage.f90"
                     },
                     {
                         "name": "guessdate",
-                        "source-dir": "PROGRAMS/demo_guessdate",
+                        "source-dir": "demo",
                         "main": "guessdate.f90"
                     },
                     {
                         "name": "j2d",
-                        "source-dir": "PROGRAMS/demo_j2d",
+                        "source-dir": "demo",
                         "main": "j2d.f90"
                     },
                     {
                         "name": "julian_to_date",
-                        "source-dir": "PROGRAMS/demo_julian_to_date",
+                        "source-dir": "demo",
                         "main": "julian_to_date.f90"
                     },
                     {
                         "name": "mo2d",
-                        "source-dir": "PROGRAMS/demo_mo2d",
+                        "source-dir": "demo",
                         "main": "mo2d.f90"
                     },
                     {
                         "name": "mo2v",
-                        "source-dir": "PROGRAMS/demo_mo2v",
+                        "source-dir": "demo",
                         "main": "mo2v.f90"
                     },
                     {
                         "name": "moon_fullness",
-                        "source-dir": "PROGRAMS/demo_moon_fullness",
+                        "source-dir": "demo",
                         "main": "moon_fullness.f90"
                     },
                     {
                         "name": "now",
-                        "source-dir": "PROGRAMS/demo_now",
+                        "source-dir": "demo",
                         "main": "now.f90"
                     },
                     {
                         "name": "o2d",
-                        "source-dir": "PROGRAMS/demo_o2d",
+                        "source-dir": "demo",
                         "main": "o2d.f90"
                     },
                     {
                         "name": "ordinal_seconds",
-                        "source-dir": "PROGRAMS/demo_ordinal_seconds",
+                        "source-dir": "demo",
                         "main": "ordinal_seconds.f90"
                     },
                     {
                         "name": "ordinal_to_date",
-                        "source-dir": "PROGRAMS/demo_ordinal_to_date",
+                        "source-dir": "demo",
                         "main": "ordinal_to_date.f90"
                     },
                     {
                         "name": "phase_of_moon",
-                        "source-dir": "PROGRAMS/demo_phase_of_moon",
+                        "source-dir": "demo",
                         "main": "phase_of_moon.f90"
                     },
                     {
                         "name": "sec2days",
-                        "source-dir": "PROGRAMS/demo_sec2days",
+                        "source-dir": "demo",
                         "main": "sec2days.f90"
                     },
                     {
                         "name": "u2d",
-                        "source-dir": "PROGRAMS/demo_u2d",
+                        "source-dir": "demo",
                         "main": "u2d.f90"
                     },
                     {
                         "name": "unix_to_date",
-                        "source-dir": "PROGRAMS/demo_unix_to_date",
+                        "source-dir": "demo",
                         "main": "unix_to_date.f90"
                     },
                     {
                         "name": "v2mo",
-                        "source-dir": "PROGRAMS/demo_v2mo",
+                        "source-dir": "demo",
                         "main": "v2mo.f90"
                     },
                     {
                         "name": "w2d",
-                        "source-dir": "PROGRAMS/demo_w2d",
+                        "source-dir": "demo",
                         "main": "w2d.f90"
                     }
                 ],
                 "dependencies": null,
-                "dev-dependencies": null,
+                "dev-dependencies": {
+                    "M_msg": {
+                        "git": "https://github.com/urbanjost/M_msg.git"
+                    }
+                },
                 "git": "https://github.com/urbanjost/M_time",
                 "git-tag": null
             }
@@ -615,72 +972,72 @@
                 "executable": [
                     {
                         "name": "demo1",
-                        "source-dir": "PROGRAMS/demo1",
+                        "source-dir": "demos",
                         "main": "demo1.f90"
                     },
                     {
                         "name": "demo2",
-                        "source-dir": "PROGRAMS/demo2",
+                        "source-dir": "demos",
                         "main": "demo2.f90"
                     },
                     {
                         "name": "demo3",
-                        "source-dir": "PROGRAMS/demo3",
+                        "source-dir": "demos",
                         "main": "demo3.f90"
                     },
                     {
                         "name": "demo4",
-                        "source-dir": "PROGRAMS/demo4",
+                        "source-dir": "demos",
                         "main": "demo4.f90"
                     },
                     {
                         "name": "demo5",
-                        "source-dir": "PROGRAMS/demo5",
+                        "source-dir": "demos",
                         "main": "demo5.f90"
                     },
                     {
                         "name": "demo6",
-                        "source-dir": "PROGRAMS/demo6",
+                        "source-dir": "demos",
                         "main": "demo6.f90"
                     },
                     {
                         "name": "demo7",
-                        "source-dir": "PROGRAMS/demo7",
+                        "source-dir": "demos",
                         "main": "demo7.f90"
                     },
                     {
                         "name": "demo8",
-                        "source-dir": "PROGRAMS/demo8",
+                        "source-dir": "demos",
                         "main": "demo8.f90"
                     },
                     {
                         "name": "demo9",
-                        "source-dir": "PROGRAMS/demo9",
+                        "source-dir": "demos",
                         "main": "demo9.f90"
                     },
                     {
                         "name": "get_args_fixed_size",
-                        "source-dir": "PROGRAMS/demos/get_args_fixed_size",
+                        "source-dir": "demos/demos",
                         "main": "get_args_fixed_size.f90"
                     },
                     {
                         "name": "get_args_fixed_length",
-                        "source-dir": "PROGRAMS/demos/get_args_fixed_length",
+                        "source-dir": "demos/demos",
                         "main": "get_args_fixed_length.f90"
                     },
                     {
                         "name": "get_args",
-                        "source-dir": "PROGRAMS/demos/get_args",
+                        "source-dir": "demos/demos",
                         "main": "get_args.f90"
                     },
                     {
                         "name": "set_args",
-                        "source-dir": "PROGRAMS/demos/set_args",
+                        "source-dir": "demos/demos",
                         "main": "set_args.f90"
                     },
                     {
                         "name": "M_CLI2",
-                        "source-dir": "PROGRAMS/demos/M_CLI2",
+                        "source-dir": "demos/demos",
                         "main": "M_CLI2.f90"
                     }
                 ],
@@ -759,9 +1116,285 @@
                 "maintainer": "urbanjost@comcast.net",
                 "copyright": "2020 John S. Urban",
                 "description": "(mostly)POSIX system routine interface",
-                "executable": null,
+                "executable": [
+                    {
+                        "name": "demo_system_access",
+                        "source-dir": "demo",
+                        "main": "system_access.f90"
+                    },
+                    {
+                        "name": "demo_system_chdir",
+                        "source-dir": "demo",
+                        "main": "system_chdir.f90"
+                    },
+                    {
+                        "name": "demo_system_chmod",
+                        "source-dir": "demo",
+                        "main": "system_chmod.f90"
+                    },
+                    {
+                        "name": "demo_system_chown",
+                        "source-dir": "demo",
+                        "main": "system_chown.f90"
+                    },
+                    {
+                        "name": "demo_system_clearenv",
+                        "source-dir": "demo",
+                        "main": "system_clearenv.f90"
+                    },
+                    {
+                        "name": "demo_system_closedir",
+                        "source-dir": "demo",
+                        "main": "system_closedir.f90"
+                    },
+                    {
+                        "name": "demo_system_cpu_time",
+                        "source-dir": "demo",
+                        "main": "system_cpu_time.f90"
+                    },
+                    {
+                        "name": "demo_system_errno",
+                        "source-dir": "demo",
+                        "main": "system_errno.f90"
+                    },
+                    {
+                        "name": "demo_system_getcwd",
+                        "source-dir": "demo",
+                        "main": "system_getcwd.f90"
+                    },
+                    {
+                        "name": "demo_system_getegid",
+                        "source-dir": "demo",
+                        "main": "system_getegid.f90"
+                    },
+                    {
+                        "name": "demo_system_getenv",
+                        "source-dir": "demo",
+                        "main": "system_getenv.f90"
+                    },
+                    {
+                        "name": "demo_system_geteuid",
+                        "source-dir": "demo",
+                        "main": "system_geteuid.f90"
+                    },
+                    {
+                        "name": "demo_system_getgid",
+                        "source-dir": "demo",
+                        "main": "system_getgid.f90"
+                    },
+                    {
+                        "name": "demo_system_getgrgid",
+                        "source-dir": "demo",
+                        "main": "system_getgrgid.f90"
+                    },
+                    {
+                        "name": "demo_system_gethostname",
+                        "source-dir": "demo",
+                        "main": "system_gethostname.f90"
+                    },
+                    {
+                        "name": "demo_system_getlogin",
+                        "source-dir": "demo",
+                        "main": "system_getlogin.f90"
+                    },
+                    {
+                        "name": "demo_system_getpid",
+                        "source-dir": "demo",
+                        "main": "system_getpid.f90"
+                    },
+                    {
+                        "name": "demo_system_getppid",
+                        "source-dir": "demo",
+                        "main": "system_getppid.f90"
+                    },
+                    {
+                        "name": "demo_system_getpwuid",
+                        "source-dir": "demo",
+                        "main": "system_getpwuid.f90"
+                    },
+                    {
+                        "name": "demo_system_getsid",
+                        "source-dir": "demo",
+                        "main": "system_getsid.f90"
+                    },
+                    {
+                        "name": "demo_system_getuid",
+                        "source-dir": "demo",
+                        "main": "system_getuid.f90"
+                    },
+                    {
+                        "name": "demo_system_getumask",
+                        "source-dir": "demo",
+                        "main": "system_getumask.f90"
+                    },
+                    {
+                        "name": "demo_system_initenv",
+                        "source-dir": "demo",
+                        "main": "system_initenv.f90"
+                    },
+                    {
+                        "name": "demo_system_isblk",
+                        "source-dir": "demo",
+                        "main": "system_isblk.f90"
+                    },
+                    {
+                        "name": "demo_system_ischr",
+                        "source-dir": "demo",
+                        "main": "system_ischr.f90"
+                    },
+                    {
+                        "name": "demo_system_isdir",
+                        "source-dir": "demo",
+                        "main": "system_isdir.f90"
+                    },
+                    {
+                        "name": "demo_system_isfifo",
+                        "source-dir": "demo",
+                        "main": "system_isfifo.f90"
+                    },
+                    {
+                        "name": "demo_system_islnk",
+                        "source-dir": "demo",
+                        "main": "system_islnk.f90"
+                    },
+                    {
+                        "name": "demo_system_isreg",
+                        "source-dir": "demo",
+                        "main": "system_isreg.f90"
+                    },
+                    {
+                        "name": "demo_system_issock",
+                        "source-dir": "demo",
+                        "main": "system_issock.f90"
+                    },
+                    {
+                        "name": "demo_system_kill",
+                        "source-dir": "demo",
+                        "main": "system_kill.f90"
+                    },
+                    {
+                        "name": "demo_system_link",
+                        "source-dir": "demo",
+                        "main": "system_link.f90"
+                    },
+                    {
+                        "name": "demo_system_mkdir",
+                        "source-dir": "demo",
+                        "main": "system_mkdir.f90"
+                    },
+                    {
+                        "name": "demo_system_mkfifo",
+                        "source-dir": "demo",
+                        "main": "system_mkfifo.f90"
+                    },
+                    {
+                        "name": "demo_system_opendir",
+                        "source-dir": "demo",
+                        "main": "system_opendir.f90"
+                    },
+                    {
+                        "name": "demo_system_perm",
+                        "source-dir": "demo",
+                        "main": "system_perm.f90"
+                    },
+                    {
+                        "name": "demo_system_perror",
+                        "source-dir": "demo",
+                        "main": "system_perror.f90"
+                    },
+                    {
+                        "name": "demo_system_putenv",
+                        "source-dir": "demo",
+                        "main": "system_putenv.f90"
+                    },
+                    {
+                        "name": "demo_system_rand",
+                        "source-dir": "demo",
+                        "main": "system_rand.f90"
+                    },
+                    {
+                        "name": "demo_system_readdir",
+                        "source-dir": "demo",
+                        "main": "system_readdir.f90"
+                    },
+                    {
+                        "name": "demo_system_readenv",
+                        "source-dir": "demo",
+                        "main": "system_readenv.f90"
+                    },
+                    {
+                        "name": "demo_system_realpath",
+                        "source-dir": "demo",
+                        "main": "system_realpath.f90"
+                    },
+                    {
+                        "name": "demo_system_remove",
+                        "source-dir": "demo",
+                        "main": "system_remove.f90"
+                    },
+                    {
+                        "name": "demo_system_rename",
+                        "source-dir": "demo",
+                        "main": "system_rename.f90"
+                    },
+                    {
+                        "name": "demo_system_rewinddir",
+                        "source-dir": "demo",
+                        "main": "system_rewinddir.f90"
+                    },
+                    {
+                        "name": "demo_system_rmdir",
+                        "source-dir": "demo",
+                        "main": "system_rmdir.f90"
+                    },
+                    {
+                        "name": "demo_system_setsid",
+                        "source-dir": "demo",
+                        "main": "system_setsid.f90"
+                    },
+                    {
+                        "name": "demo_system_setumask",
+                        "source-dir": "demo",
+                        "main": "system_setumask.f90"
+                    },
+                    {
+                        "name": "demo_system_srand",
+                        "source-dir": "demo",
+                        "main": "system_srand.f90"
+                    },
+                    {
+                        "name": "demo_system_uname",
+                        "source-dir": "demo",
+                        "main": "system_uname.f90"
+                    },
+                    {
+                        "name": "demo_system_unlink",
+                        "source-dir": "demo",
+                        "main": "system_unlink.f90"
+                    },
+                    {
+                        "name": "demo_system_unsetenv",
+                        "source-dir": "demo",
+                        "main": "system_unsetenv.f90"
+                    },
+                    {
+                        "name": "demo_system_utime",
+                        "source-dir": "demo",
+                        "main": "system_utime.f90"
+                    }
+                ],
                 "dependencies": null,
-                "dev-dependencies": null,
+                "dev-dependencies": {
+                    "M_msg": {
+                        "git": "https://github.com/urbanjost/M_msg.git"
+                    },
+                    "M_time": {
+                        "git": "https://github.com/urbanjost/M_time.git"
+                    },
+                    "M_process": {
+                        "git": "https://github.com/urbanjost/M_process.git"
+                    }
+                },
                 "git": "https://github.com/urbanjost/M_system",
                 "git-tag": null
             }
@@ -810,5 +1443,5 @@
             }
         }
     },
-    "index-date": "Mon Oct  5 15:22:46 2020"
+    "index-date": "Mon Nov 23 21:43:06 2020"
 }
