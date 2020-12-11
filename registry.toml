@@ -2,6 +2,10 @@
 "1.7.0" = {git="https://github.com/wavebitscientific/datetime-fortran", tag="v1.7.0"}
 "latest" = {git="https://github.com/wavebitscientific/datetime-fortran"}
 
+[fhash]
+"0.1.0" = {git="https://github.com/LKedward/fhash", tag="v0.1.0"}
+"latest" = {git="https://github.com/LKedward/fhash"}
+
 [iso_varying_string]
 "latest" = {git="https://gitlab.com/everythingfunctional/iso_varying_string"}
 
