@@ -1087,7 +1087,135 @@
                 "git": "https://github.com/LKedward/fhash",
                 "git-tag": null
             }
+        },
+        "mctc-gcp": {
+            "latest": {
+                "name": "mctc-gcp",
+                "version": "2.1.2",
+                "license": "GPL-3.0-or-later",
+                "author": [
+                    "Stefan Grimme",
+                    "J. Gerit Brandenburg",
+                    "Holger Kruse"
+                ],
+                "maintainer": [
+                    "@grimme-lab"
+                ],
+                "copyright": "2012-2021 Grimme group",
+                "description": "Geometrical Counter-Poise correction",
+                "executable": [
+                    {
+                        "name": "mctc-gcp",
+                        "main": "main.f90",
+                        "source-dir": "app"
+                    }
+                ],
+                "dependencies": {
+                    "mctc-lib": {
+                        "git": "https://github.com/grimme-lab/mctc-lib"
+                    }
+                },
+                "dev-dependencies": {
+                    "mstore": {
+                        "git": "https://github.com/grimme-lab/mstore"
+                    }
+                },
+                "git": "https://github.com/grimme-lab/gcp.git",
+                "git-tag": null
+            }
+        },
+        "mctc-lib": {
+            "latest": {
+                "name": "mctc-lib",
+                "version": "0.2.0",
+                "license": "Apache-2.0",
+                "author": [
+                    "Sebastian Ehlert"
+                ],
+                "maintainer": [
+                    "@awvwgk"
+                ],
+                "copyright": "2020-2021 Sebastian Ehlert",
+                "description": "Modular computation tool chain library",
+                "executable": null,
+                "dependencies": null,
+                "dev-dependencies": null,
+                "git": "https://github.com/grimme-lab/mctc-lib.git",
+                "git-tag": null
+            }
+        },
+        "mstore": {
+            "latest": {
+                "name": "mstore",
+                "version": "0.1.0",
+                "license": "Apache-2.0",
+                "author": [
+                    "Sebastian Ehlert"
+                ],
+                "maintainer": [
+                    "@awvwgk"
+                ],
+                "copyright": "2020-2021 Sebastian Ehlert",
+                "description": "Molecular structure store for testing",
+                "executable": null,
+                "dependencies": {
+                    "mctc-lib": {
+                        "git": "https://github.com/grimme-lab/mctc-lib"
+                    }
+                },
+                "dev-dependencies": null,
+                "git": "https://github.com/grimme-lab/mstore.git",
+                "git-tag": null
+            }
+        },
+        "s-dftd3": {
+            "latest": {
+                "name": "s-dftd3",
+                "version": "0.3.0",
+                "license": "LGPL-3.0-or-later",
+                "author": [
+                    "Sebastian Ehlert"
+                ],
+                "maintainer": [
+                    "@awvwgk"
+                ],
+                "copyright": "2019-2021 Sebastian Ehlert",
+                "description": "Simple reimplementation of the DFT-D3 method",
+                "executable": null,
+                "dependencies": {
+                    "mctc-lib": {
+                        "git": "https://github.com/grimme-lab/mctc-lib"
+                    }
+                },
+                "dev-dependencies": {
+                    "mstore": {
+                        "git": "https://github.com/grimme-lab/mstore"
+                    }
+                },
+                "git": "https://github.com/awvwgk/simple-dftd3.git",
+                "git-tag": null
+            }
+        },
+        "toml-f": {
+            "latest": {
+                "name": "toml-f",
+                "version": "0.2.1",
+                "license": "Apache-2.0 OR MIT",
+                "author": [
+                    "Sebastian Ehlert"
+                ],
+                "maintainer": [
+                    "@awvwgk"
+                ],
+                "copyright": "2019-2021 Sebastian Ehlert",
+                "description": "TOML parser implementation for data serialization and deserialization",
+                "executable": null,
+                "dependencies": null,
+                "dev-dependencies": null,
+                "git": "https://github.com/toml-f/toml-f.git",
+                "git-tag": null
+            }
         }
     },
-    "index-date": "Wed Dec 30 12:23:31 2020"
+    "index-date": "Thu Dec 31 15:39:45 2020"
 }
