@@ -62,15 +62,12 @@
 
 [mctc-gcp]
 latest.git = "https://github.com/grimme-lab/gcp.git"
-latest.tag = "cd69ef6"  # Debug
 
 [mctc-lib]
 latest.git = "https://github.com/grimme-lab/mctc-lib.git"
-latest.tag = "61cdea0"  # Debug
 
 [mstore]
 latest.git = "https://github.com/grimme-lab/mstore.git"
-latest.tag = "6896b3b"  # Debug
 
 [pointsets]
 "latest" = {git="https://github.com/arjenmarkus/pointsets"}
