@@ -60,17 +60,32 @@
 [M_time]
 "latest" = {git="https://github.com/urbanjost/M_time"}
 
+[mctc-gcp]
+latest.git = "https://github.com/grimme-lab/gcp.git"
+
+[mctc-lib]
+latest.git = "https://github.com/grimme-lab/mctc-lib.git"
+
+[mstore]
+latest.git = "https://github.com/grimme-lab/mstore.git"
+
 [pointsets]
 "latest" = {git="https://github.com/arjenmarkus/pointsets"}
 
 [quaff]
 "latest" = {git="https://gitlab.com/everythingfunctional/quaff"}
 
+[s-dftd3]
+latest.git = "https://github.com/awvwgk/simple-dftd3.git"
+
 [sqliteff]
 "latest" = {git="https://gitlab.com/everythingfunctional/sqliteff"}
 
 [strff]
 "latest" = {git="https://gitlab.com/everythingfunctional/strff"}
+
+[toml-f]
+latest.git = "https://github.com/toml-f/toml-f.git"
 
 [vegetables]
 "latest" = {git="https://gitlab.com/everythingfunctional/vegetables"}
