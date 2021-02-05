@@ -54,7 +54,7 @@
         "jsonff": {
             "latest": {
                 "name": "jsonff",
-                "version": "1.2.0",
+                "version": "2.1.0",
                 "license": "MIT",
                 "author": "Brad Richardson",
                 "maintainer": "everythingfunctional@protonmail.com",
@@ -64,25 +64,25 @@
                 "dependencies": {
                     "erloff": {
                         "git": "https://gitlab.com/everythingfunctional/erloff.git",
-                        "tag": "v1.0.0"
+                        "tag": "v2.0.0"
                     },
                     "iso_varying_string": {
                         "git": "https://gitlab.com/everythingfunctional/iso_varying_string.git",
-                        "tag": "v1.0.1"
+                        "tag": "v2.0.0"
                     },
                     "parff": {
                         "git": "https://gitlab.com/everythingfunctional/parff.git",
-                        "tag": "v1.1.0"
+                        "tag": "v3.1.0"
                     },
                     "strff": {
                         "git": "https://gitlab.com/everythingfunctional/strff.git",
-                        "tag": "v1.2.0"
+                        "tag": "v2.0.1"
                     }
                 },
                 "dev-dependencies": {
                     "vegetables": {
                         "git": "https://gitlab.com/everythingfunctional/vegetables",
-                        "tag": "v5.0.0"
+                        "tag": "v7.0.2"
                     }
                 },
                 "git": "https://gitlab.com/everythingfunctional/jsonff",
@@ -117,7 +117,7 @@
         },
         "M_change": {
             "latest": {
-                "name": "M_change",
+                "name": "M_match",
                 "version": "0.1.0",
                 "license": "license",
                 "author": "John S. Urban",
@@ -147,11 +147,7 @@
                 "copyright": "2020 John S. Urban",
                 "description": "conversions between common color models ",
                 "executable": null,
-                "dependencies": {
-                    "M_msg": {
-                        "git": "https://github.com/urbanjost/M_msg.git"
-                    }
-                },
+                "dependencies": null,
                 "dev-dependencies": null,
                 "git": "https://github.com/urbanjost/M_color",
                 "git-tag": null
@@ -181,7 +177,7 @@
                 "author": "John S. Urban",
                 "maintainer": "urbanjost@comcast.net",
                 "copyright": "2020 John S. Urban",
-                "description": "I/O-related tools",
+                "description": null,
                 "executable": null,
                 "dependencies": null,
                 "dev-dependencies": null,
@@ -197,7 +193,7 @@
                 "author": "John S. Urban",
                 "maintainer": "urbanjost@comcast.net",
                 "copyright": "2020 John S. Urban",
-                "description": "converts any standard scalar type to a string",
+                "description": "converts any standard scalar type to a string and support unit testing",
                 "executable": null,
                 "dependencies": null,
                 "dev-dependencies": null,
@@ -382,7 +378,7 @@
         "strff": {
             "latest": {
                 "name": "strff",
-                "version": "2.0.0",
+                "version": "2.0.1",
                 "license": "MIT",
                 "author": "Brad Richardson",
                 "maintainer": "everythingfunctional@protonmail.com",
@@ -398,7 +394,7 @@
                 "dev-dependencies": {
                     "vegetables": {
                         "git": "https://gitlab.com/everythingfunctional/vegetables.git",
-                        "tag": "v6.0.0"
+                        "tag": "v7.0.2"
                     }
                 },
                 "git": "https://gitlab.com/everythingfunctional/strff",
@@ -408,25 +404,13 @@
         "vegetables": {
             "latest": {
                 "name": "vegetables",
-                "version": "6.0.1",
+                "version": "7.0.2",
                 "license": "MIT",
                 "author": "Brad Richardson",
                 "maintainer": "everythingfunctional@protonmail.com",
                 "copyright": "2020 Brad Richardson",
                 "description": null,
-                "executable": [
-                    {
-                        "name": "make_vegetable_driver",
-                        "source-dir": "app",
-                        "main": "main.f90",
-                        "dependencies": {
-                            "parff": {
-                                "git": "https://gitlab.com/everythingfunctional/parff.git",
-                                "tag": "v2.0.0"
-                            }
-                        }
-                    }
-                ],
+                "executable": null,
                 "dependencies": {
                     "iso_varying_string": {
                         "git": "https://gitlab.com/everythingfunctional/iso_varying_string.git",
@@ -680,273 +664,7 @@
                 "maintainer": "urbanjost@comcast.net",
                 "copyright": "2020 John S. Urban",
                 "description": "(mostly)POSIX system routine interface",
-                "executable": [
-                    {
-                        "name": "demo_system_access",
-                        "source-dir": "example",
-                        "main": "system_access.f90"
-                    },
-                    {
-                        "name": "demo_system_chdir",
-                        "source-dir": "example",
-                        "main": "system_chdir.f90"
-                    },
-                    {
-                        "name": "demo_system_chmod",
-                        "source-dir": "example",
-                        "main": "system_chmod.f90"
-                    },
-                    {
-                        "name": "demo_system_chown",
-                        "source-dir": "example",
-                        "main": "system_chown.f90"
-                    },
-                    {
-                        "name": "demo_system_clearenv",
-                        "source-dir": "example",
-                        "main": "system_clearenv.f90"
-                    },
-                    {
-                        "name": "demo_system_closedir",
-                        "source-dir": "example",
-                        "main": "system_closedir.f90"
-                    },
-                    {
-                        "name": "demo_system_cpu_time",
-                        "source-dir": "example",
-                        "main": "system_cpu_time.f90"
-                    },
-                    {
-                        "name": "demo_system_errno",
-                        "source-dir": "example",
-                        "main": "system_errno.f90"
-                    },
-                    {
-                        "name": "demo_system_getcwd",
-                        "source-dir": "example",
-                        "main": "system_getcwd.f90"
-                    },
-                    {
-                        "name": "demo_system_getegid",
-                        "source-dir": "example",
-                        "main": "system_getegid.f90"
-                    },
-                    {
-                        "name": "demo_system_getenv",
-                        "source-dir": "example",
-                        "main": "system_getenv.f90"
-                    },
-                    {
-                        "name": "demo_system_geteuid",
-                        "source-dir": "example",
-                        "main": "system_geteuid.f90"
-                    },
-                    {
-                        "name": "demo_system_getgid",
-                        "source-dir": "example",
-                        "main": "system_getgid.f90"
-                    },
-                    {
-                        "name": "demo_system_getgrgid",
-                        "source-dir": "example",
-                        "main": "system_getgrgid.f90"
-                    },
-                    {
-                        "name": "demo_system_gethostname",
-                        "source-dir": "example",
-                        "main": "system_gethostname.f90"
-                    },
-                    {
-                        "name": "demo_system_getlogin",
-                        "source-dir": "example",
-                        "main": "system_getlogin.f90"
-                    },
-                    {
-                        "name": "demo_system_getpid",
-                        "source-dir": "example",
-                        "main": "system_getpid.f90"
-                    },
-                    {
-                        "name": "demo_system_getppid",
-                        "source-dir": "example",
-                        "main": "system_getppid.f90"
-                    },
-                    {
-                        "name": "demo_system_getpwuid",
-                        "source-dir": "example",
-                        "main": "system_getpwuid.f90"
-                    },
-                    {
-                        "name": "demo_system_getsid",
-                        "source-dir": "example",
-                        "main": "system_getsid.f90"
-                    },
-                    {
-                        "name": "demo_system_getuid",
-                        "source-dir": "example",
-                        "main": "system_getuid.f90"
-                    },
-                    {
-                        "name": "demo_system_getumask",
-                        "source-dir": "example",
-                        "main": "system_getumask.f90"
-                    },
-                    {
-                        "name": "demo_system_initenv",
-                        "source-dir": "example",
-                        "main": "system_initenv.f90"
-                    },
-                    {
-                        "name": "demo_system_isblk",
-                        "source-dir": "example",
-                        "main": "system_isblk.f90"
-                    },
-                    {
-                        "name": "demo_system_ischr",
-                        "source-dir": "example",
-                        "main": "system_ischr.f90"
-                    },
-                    {
-                        "name": "demo_system_isdir",
-                        "source-dir": "example",
-                        "main": "system_isdir.f90"
-                    },
-                    {
-                        "name": "demo_system_isfifo",
-                        "source-dir": "example",
-                        "main": "system_isfifo.f90"
-                    },
-                    {
-                        "name": "demo_system_islnk",
-                        "source-dir": "example",
-                        "main": "system_islnk.f90"
-                    },
-                    {
-                        "name": "demo_system_isreg",
-                        "source-dir": "example",
-                        "main": "system_isreg.f90"
-                    },
-                    {
-                        "name": "demo_system_issock",
-                        "source-dir": "example",
-                        "main": "system_issock.f90"
-                    },
-                    {
-                        "name": "demo_system_kill",
-                        "source-dir": "example",
-                        "main": "system_kill.f90"
-                    },
-                    {
-                        "name": "demo_system_link",
-                        "source-dir": "example",
-                        "main": "system_link.f90"
-                    },
-                    {
-                        "name": "demo_system_mkdir",
-                        "source-dir": "example",
-                        "main": "system_mkdir.f90"
-                    },
-                    {
-                        "name": "demo_system_mkfifo",
-                        "source-dir": "example",
-                        "main": "system_mkfifo.f90"
-                    },
-                    {
-                        "name": "demo_system_opendir",
-                        "source-dir": "example",
-                        "main": "system_opendir.f90"
-                    },
-                    {
-                        "name": "demo_system_perm",
-                        "source-dir": "example",
-                        "main": "system_perm.f90"
-                    },
-                    {
-                        "name": "demo_system_perror",
-                        "source-dir": "example",
-                        "main": "system_perror.f90"
-                    },
-                    {
-                        "name": "demo_system_putenv",
-                        "source-dir": "example",
-                        "main": "system_putenv.f90"
-                    },
-                    {
-                        "name": "demo_system_rand",
-                        "source-dir": "example",
-                        "main": "system_rand.f90"
-                    },
-                    {
-                        "name": "demo_system_readdir",
-                        "source-dir": "example",
-                        "main": "system_readdir.f90"
-                    },
-                    {
-                        "name": "demo_system_readenv",
-                        "source-dir": "example",
-                        "main": "system_readenv.f90"
-                    },
-                    {
-                        "name": "demo_system_realpath",
-                        "source-dir": "example",
-                        "main": "system_realpath.f90"
-                    },
-                    {
-                        "name": "demo_system_remove",
-                        "source-dir": "example",
-                        "main": "system_remove.f90"
-                    },
-                    {
-                        "name": "demo_system_rename",
-                        "source-dir": "example",
-                        "main": "system_rename.f90"
-                    },
-                    {
-                        "name": "demo_system_rewinddir",
-                        "source-dir": "example",
-                        "main": "system_rewinddir.f90"
-                    },
-                    {
-                        "name": "demo_system_rmdir",
-                        "source-dir": "example",
-                        "main": "system_rmdir.f90"
-                    },
-                    {
-                        "name": "demo_system_setsid",
-                        "source-dir": "example",
-                        "main": "system_setsid.f90"
-                    },
-                    {
-                        "name": "demo_system_setumask",
-                        "source-dir": "example",
-                        "main": "system_setumask.f90"
-                    },
-                    {
-                        "name": "demo_system_srand",
-                        "source-dir": "example",
-                        "main": "system_srand.f90"
-                    },
-                    {
-                        "name": "demo_system_uname",
-                        "source-dir": "example",
-                        "main": "system_uname.f90"
-                    },
-                    {
-                        "name": "demo_system_unlink",
-                        "source-dir": "example",
-                        "main": "system_unlink.f90"
-                    },
-                    {
-                        "name": "demo_system_unsetenv",
-                        "source-dir": "example",
-                        "main": "system_unsetenv.f90"
-                    },
-                    {
-                        "name": "demo_system_utime",
-                        "source-dir": "example",
-                        "main": "system_utime.f90"
-                    }
-                ],
+                "executable": null,
                 "dependencies": null,
                 "dev-dependencies": {
                     "M_msg": {
@@ -1112,12 +830,14 @@
                 ],
                 "dependencies": {
                     "mctc-lib": {
-                        "git": "https://github.com/grimme-lab/mctc-lib"
+                        "git": "https://github.com/grimme-lab/mctc-lib",
+                        "tag": "v0.2.0"
                     }
                 },
                 "dev-dependencies": {
                     "mstore": {
-                        "git": "https://github.com/grimme-lab/mstore"
+                        "git": "https://github.com/grimme-lab/mstore",
+                        "tag": "v0.1.1"
                     }
                 },
                 "git": "https://github.com/grimme-lab/gcp.git",
@@ -1127,7 +847,7 @@
         "mctc-lib": {
             "latest": {
                 "name": "mctc-lib",
-                "version": "0.2.0",
+                "version": "0.2.1",
                 "license": "Apache-2.0",
                 "author": [
                     "Sebastian Ehlert"
@@ -1184,12 +904,14 @@
                 "executable": null,
                 "dependencies": {
                     "mctc-lib": {
-                        "git": "https://github.com/grimme-lab/mctc-lib"
+                        "git": "https://github.com/grimme-lab/mctc-lib",
+                        "tag": "v0.2.0"
                     }
                 },
                 "dev-dependencies": {
                     "mstore": {
-                        "git": "https://github.com/grimme-lab/mstore"
+                        "git": "https://github.com/grimme-lab/mstore",
+                        "tag": "v0.1.1"
                     }
                 },
                 "git": "https://github.com/awvwgk/simple-dftd3.git",
@@ -1215,7 +937,151 @@
                 "git": "https://github.com/toml-f/toml-f.git",
                 "git-tag": null
             }
+        },
+        "M_CLI": {
+            "latest": {
+                "name": "M_CLI",
+                "version": "0.1.0",
+                "license": "Public Domain",
+                "author": "John S. Urban",
+                "maintainer": "urbanjost@comcast.net",
+                "copyright": "2020 John S. Urban",
+                "description": "Unix-style commandline parsing using a prototype command and NAMELIST (STD:f2008)",
+                "executable": [
+                    {
+                        "name": "demo1",
+                        "source-dir": "example",
+                        "main": "demo1.f90"
+                    },
+                    {
+                        "name": "demo2",
+                        "source-dir": "example",
+                        "main": "demo2.f90"
+                    },
+                    {
+                        "name": "demo3",
+                        "source-dir": "example",
+                        "main": "demo3.f90"
+                    },
+                    {
+                        "name": "demo4",
+                        "source-dir": "example",
+                        "main": "demo4.f90"
+                    },
+                    {
+                        "name": "demo5",
+                        "source-dir": "example",
+                        "main": "demo5.f90"
+                    },
+                    {
+                        "name": "demo6",
+                        "source-dir": "example",
+                        "main": "demo6.f90"
+                    },
+                    {
+                        "name": "demo7",
+                        "source-dir": "example",
+                        "main": "demo7.f90"
+                    },
+                    {
+                        "name": "demo9",
+                        "source-dir": "example",
+                        "main": "segments.f90"
+                    }
+                ],
+                "dependencies": null,
+                "dev-dependencies": null,
+                "git": "https://github.com/urbanjost/M_CLI",
+                "git-tag": null
+            }
+        },
+        "M_CLI2": {
+            "latest": {
+                "name": "M_CLI2",
+                "version": "0.1.0",
+                "license": "Public Domain",
+                "author": "John S. Urban",
+                "maintainer": "urbanjost@comcast.net",
+                "copyright": "2020 John S. Urban",
+                "description": "Unix-style commandline parsing using a prototype command  (STD:f2008)",
+                "executable": [
+                    {
+                        "name": "demo1",
+                        "source-dir": "example",
+                        "main": "demo1.f90"
+                    },
+                    {
+                        "name": "demo2",
+                        "source-dir": "example",
+                        "main": "demo2.f90"
+                    },
+                    {
+                        "name": "demo3",
+                        "source-dir": "example",
+                        "main": "demo3.f90"
+                    },
+                    {
+                        "name": "demo4",
+                        "source-dir": "example",
+                        "main": "demo4.f90"
+                    },
+                    {
+                        "name": "demo5",
+                        "source-dir": "example",
+                        "main": "demo5.f90"
+                    },
+                    {
+                        "name": "demo6",
+                        "source-dir": "example",
+                        "main": "demo6.f90"
+                    },
+                    {
+                        "name": "demo7",
+                        "source-dir": "example",
+                        "main": "demo7.f90"
+                    },
+                    {
+                        "name": "demo8",
+                        "source-dir": "example",
+                        "main": "demo8.f90"
+                    },
+                    {
+                        "name": "demo9",
+                        "source-dir": "example",
+                        "main": "demo9.f90"
+                    },
+                    {
+                        "name": "get_args_fixed_size",
+                        "source-dir": "example/demos",
+                        "main": "get_args_fixed_size.f90"
+                    },
+                    {
+                        "name": "get_args_fixed_length",
+                        "source-dir": "example/demos",
+                        "main": "get_args_fixed_length.f90"
+                    },
+                    {
+                        "name": "get_args",
+                        "source-dir": "example/demos",
+                        "main": "get_args.f90"
+                    },
+                    {
+                        "name": "set_args",
+                        "source-dir": "example/demos",
+                        "main": "set_args.f90"
+                    },
+                    {
+                        "name": "M_CLI2",
+                        "source-dir": "example/demos",
+                        "main": "M_CLI2.f90"
+                    }
+                ],
+                "dependencies": null,
+                "dev-dependencies": null,
+                "git": "https://github.com/urbanjost/M_CLI2",
+                "git-tag": null
+            }
         }
     },
-    "index-date": "Thu Dec 31 15:39:45 2020"
+    "index-date": "Fri Feb  5 12:00:26 2021"
 }
