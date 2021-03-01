@@ -2,6 +2,9 @@
 "1.7.0" = {git="https://github.com/wavebitscientific/datetime-fortran", tag="v1.7.0"}
 "latest" = {git="https://github.com/wavebitscientific/datetime-fortran"}
 
+[dftd4]
+latest.git = "https://github.com/dftd4/dftd4"
+
 [fhash]
 "0.1.0" = {git="https://github.com/LKedward/fhash", tag="v0.1.0"}
 "latest" = {git="https://github.com/LKedward/fhash"}
@@ -68,6 +71,9 @@ latest.git = "https://github.com/grimme-lab/mctc-lib.git"
 
 [mstore]
 latest.git = "https://github.com/grimme-lab/mstore.git"
+
+[multicharge]
+latest.git = "https://github.com/grimme-lab/multicharge.git"
 
 [pointsets]
 "latest" = {git="https://github.com/arjenmarkus/pointsets"}
