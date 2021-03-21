@@ -33,7 +33,7 @@
         "iso_varying_string": {
             "latest": {
                 "name": "iso_varying_string",
-                "version": "2.0.0",
+                "version": "2.1.0",
                 "license": "MIT",
                 "author": "Brad Richardson",
                 "maintainer": "everythingfunctional@protonmail.com",
@@ -241,7 +241,7 @@
                 "author": "John S. Urban",
                 "maintainer": "urbanjost@comcast.net",
                 "copyright": "2020 John Urban",
-                "description": "date and time conversion formatting and computation ",
+                "description": "date and time conversion, formatting and computation ",
                 "executable": [
                     {
                         "name": "now",
@@ -378,7 +378,7 @@
         "strff": {
             "latest": {
                 "name": "strff",
-                "version": "2.0.1",
+                "version": "2.1.0",
                 "license": "MIT",
                 "author": "Brad Richardson",
                 "maintainer": "everythingfunctional@protonmail.com",
@@ -388,7 +388,7 @@
                 "dependencies": {
                     "iso_varying_string": {
                         "git": "https://gitlab.com/everythingfunctional/iso_varying_string.git",
-                        "tag": "v2.0.0"
+                        "tag": "v2.1.0"
                     }
                 },
                 "dev-dependencies": {
@@ -404,7 +404,7 @@
         "vegetables": {
             "latest": {
                 "name": "vegetables",
-                "version": "7.0.3",
+                "version": "7.1.0",
                 "license": "MIT",
                 "author": "Brad Richardson",
                 "maintainer": "everythingfunctional@protonmail.com",
@@ -414,11 +414,11 @@
                 "dependencies": {
                     "iso_varying_string": {
                         "git": "https://gitlab.com/everythingfunctional/iso_varying_string.git",
-                        "tag": "v2.0.0"
+                        "tag": "v2.1.0"
                     },
                     "strff": {
                         "git": "https://gitlab.com/everythingfunctional/strff.git",
-                        "tag": "v2.0.0"
+                        "tag": "v2.1.0"
                     }
                 },
                 "dev-dependencies": null,
@@ -1003,7 +1003,7 @@
                 "author": "John S. Urban",
                 "maintainer": "urbanjost@comcast.net",
                 "copyright": "2020 John S. Urban",
-                "description": "Unix-style commandline parsing using a prototype command  (STD:f2008)",
+                "description": "Unix-style commandline parsing using a prototype command",
                 "executable": [
                     {
                         "name": "demo1",
@@ -1160,7 +1160,37 @@
                 "git": "https://github.com/grimme-lab/multicharge.git",
                 "git-tag": null
             }
+        },
+        "finterp": {
+            "1.2.2": {
+                "name": "finterp",
+                "version": "1.2.2",
+                "license": "BSD",
+                "author": "Jacob Williams",
+                "maintainer": "Jacob Williams",
+                "copyright": "Copyright (c) 2016-2021, Jacob Williams",
+                "description": "Modern Fortran Multidimensional Linear Interpolation",
+                "executable": null,
+                "dependencies": null,
+                "dev-dependencies": null,
+                "git": "https://github.com/jacobwilliams/finterp",
+                "git-tag": "1.2.2"
+            },
+            "latest": {
+                "name": "finterp",
+                "version": "1.2.2",
+                "license": "BSD",
+                "author": "Jacob Williams",
+                "maintainer": "Jacob Williams",
+                "copyright": "Copyright (c) 2016-2021, Jacob Williams",
+                "description": "Modern Fortran Multidimensional Linear Interpolation",
+                "executable": null,
+                "dependencies": null,
+                "dev-dependencies": null,
+                "git": "https://github.com/jacobwilliams/finterp",
+                "git-tag": null
+            }
         }
     },
-    "index-date": "Fri Mar 12 13:32:31 2021"
+    "index-date": "Sun Mar 21 13:59:56 2021"
 }
