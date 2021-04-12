@@ -27,6 +27,11 @@ latest.git = "https://github.com/fortran-lang/fpm"
 [functional]
 "latest" = { git="https://github.com/wavebitscientific/functional-fortran" }
 
+[h5fortran]
+"4.6.3" = {git="https://github.com/geospace-code/h5fortran", tag="v4.6.3"}
+"latest" = {git="https://github.com/geospace-code/h5fortran"}
+
+
 [iso_varying_string]
 "latest" = {git="https://gitlab.com/everythingfunctional/iso_varying_string"}
 
