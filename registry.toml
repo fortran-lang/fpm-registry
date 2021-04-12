@@ -13,6 +13,10 @@ latest.git = "https://github.com/dftd4/dftd4"
 "1.2.2" = {git="https://github.com/jacobwilliams/finterp", tag="1.2.2"}
 "latest" = {git="https://github.com/jacobwilliams/finterp"}
 
+[h5fortran]
+"3.6.6" = {git="https://github.com/geospace-code/h5fortran", tag="v3.6.6"}
+"latest" = {git="https://github.com/geospace-code/h5fortran"}
+
 [iso_varying_string]
 "latest" = {git="https://gitlab.com/everythingfunctional/iso_varying_string"}
 
