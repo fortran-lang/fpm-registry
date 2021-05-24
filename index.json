@@ -1054,7 +1054,37 @@
                 "git": "https://github.com/jacobwilliams/finterp",
                 "git-tag": null
             }
+        },
+        "forlab": {
+            "1.0.1": {
+                "name": "forlab",
+                "version": "0.1.1",
+                "license": "MIT",
+                "author": "keurfonluu",
+                "maintainer": "keurfon.luu@mines-paristech.fr",
+                "copyright": "2016-2021 forlab contributors",
+                "description": null,
+                "executable": null,
+                "dependencies": null,
+                "dev-dependencies": null,
+                "git": "https://github.com/zoziha/forlab",
+                "git-tag": "v1.0.1"
+            },
+            "latest": {
+                "name": "forlab",
+                "version": "0.1.1",
+                "license": "MIT",
+                "author": "keurfonluu",
+                "maintainer": "keurfon.luu@mines-paristech.fr",
+                "copyright": "2016-2021 forlab contributors",
+                "description": null,
+                "executable": null,
+                "dependencies": null,
+                "dev-dependencies": null,
+                "git": "https://github.com/zoziha/forlab",
+                "git-tag": null
+            }
         }
     },
-    "index-date": "Mon May 24 16:07:20 2021"
+    "index-date": "Mon May 24 16:17:16 2021"
 }
