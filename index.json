@@ -33,7 +33,7 @@
         "iso_varying_string": {
             "latest": {
                 "name": "iso_varying_string",
-                "version": "2.1.0",
+                "version": "2.2.0",
                 "license": "MIT",
                 "author": "Brad Richardson",
                 "maintainer": "everythingfunctional@protonmail.com",
@@ -44,7 +44,11 @@
                 "dev-dependencies": {
                     "vegetables": {
                         "git": "https://gitlab.com/everythingfunctional/vegetables",
-                        "tag": "v6.0.0"
+                        "tag": "v7.1.0"
+                    },
+                    "strff": {
+                        "git": "https://gitlab.com/everythingfunctional/strff",
+                        "tag": "v2.1.0"
                     }
                 },
                 "git": "https://gitlab.com/everythingfunctional/iso_varying_string",
@@ -163,7 +167,11 @@
                 "copyright": "2020 John S. Urban",
                 "description": "Input History Editor",
                 "executable": null,
-                "dependencies": null,
+                "dependencies": {
+                    "M_strings": {
+                        "git": "https://github.com/urbanjost/M_strings.git"
+                    }
+                },
                 "dev-dependencies": null,
                 "git": "https://github.com/urbanjost/M_history",
                 "git-tag": null
@@ -194,7 +202,18 @@
                 "maintainer": "urbanjost@comcast.net",
                 "copyright": "2020 John S. Urban",
                 "description": "converts any standard scalar type to a string and support unit testing",
-                "executable": null,
+                "executable": [
+                    {
+                        "name": "hlp",
+                        "source-dir": "app",
+                        "main": "hlp.f90",
+                        "dependencies": {
+                            "M_io": {
+                                "git": "https://github.com/urbanjost/M_io.git"
+                            }
+                        }
+                    }
+                ],
                 "dependencies": null,
                 "dev-dependencies": null,
                 "git": "https://github.com/urbanjost/M_msg",
@@ -225,7 +244,7 @@
                 "author": "John S. Urban",
                 "maintainer": "urbanjost@comcast.net",
                 "copyright": "2020 John S. Urban",
-                "description": "string manipulation (STD:2008)",
+                "description": "string manipulation",
                 "executable": null,
                 "dependencies": null,
                 "dev-dependencies": null,
@@ -311,7 +330,7 @@
         "quaff": {
             "latest": {
                 "name": "quaff",
-                "version": "0.3.1",
+                "version": "0.4.0",
                 "license": "MIT",
                 "author": "Brad Richardson",
                 "maintainer": "everythingfunctional@protonmail.com",
@@ -321,19 +340,19 @@
                 "dependencies": {
                     "erloff": {
                         "git": "https://gitlab.com/everythingfunctional/erloff.git",
-                        "tag": "v1.0.0"
+                        "tag": "v2.1.0"
                     },
                     "iso_varying_string": {
                         "git": "https://gitlab.com/everythingfunctional/iso_varying_string.git",
-                        "tag": "v1.0.0"
+                        "tag": "v2.0.0"
                     },
                     "parff": {
                         "git": "https://gitlab.com/everythingfunctional/parff.git",
-                        "tag": "v1.1.0"
+                        "tag": "v3.1.0"
                     },
                     "strff": {
                         "git": "https://gitlab.com/everythingfunctional/strff.git",
-                        "tag": "v1.0.0"
+                        "tag": "v2.0.1"
                     }
                 },
                 "dev-dependencies": {
@@ -342,7 +361,7 @@
                     },
                     "vegetables": {
                         "git": "https://gitlab.com/everythingfunctional/vegetables",
-                        "tag": "v5.0.0"
+                        "tag": "v7.0.3"
                     }
                 },
                 "git": "https://gitlab.com/everythingfunctional/quaff",
@@ -683,7 +702,7 @@
         "mctc-lib": {
             "latest": {
                 "name": "mctc-lib",
-                "version": "0.2.1",
+                "version": "0.2.2",
                 "license": "Apache-2.0",
                 "author": [
                     "Sebastian Ehlert"
@@ -703,7 +722,7 @@
         "mstore": {
             "latest": {
                 "name": "mstore",
-                "version": "0.1.0",
+                "version": "0.2.0",
                 "license": "Apache-2.0",
                 "author": [
                     "Sebastian Ehlert"
@@ -713,7 +732,16 @@
                 ],
                 "copyright": "2020-2021 Sebastian Ehlert",
                 "description": "Molecular structure store for testing",
-                "executable": null,
+                "executable": [
+                    {
+                        "name": "mstore-fortranize",
+                        "source-dir": "app/fortranize"
+                    },
+                    {
+                        "name": "mstore-info",
+                        "source-dir": "app/info"
+                    }
+                ],
                 "dependencies": {
                     "mctc-lib": {
                         "git": "https://github.com/grimme-lab/mctc-lib"
@@ -936,7 +964,7 @@
         "dftd4": {
             "latest": {
                 "name": "dftd4",
-                "version": "3.1.0",
+                "version": "3.2.0",
                 "license": "LGPL-3.0-or-later",
                 "author": [
                     "Eike Caldeweyher",
@@ -952,11 +980,11 @@
                 "dependencies": {
                     "mctc-lib": {
                         "git": "https://github.com/grimme-lab/mctc-lib.git",
-                        "tag": "v0.2.1"
+                        "tag": "v0.2.2"
                     },
                     "multicharge": {
                         "git": "https://github.com/grimme-lab/multicharge.git",
-                        "tag": "v0.1.0"
+                        "tag": "v0.1.1"
                     }
                 },
                 "dev-dependencies": {
@@ -972,7 +1000,7 @@
         "multicharge": {
             "latest": {
                 "name": "multicharge",
-                "version": "0.1.0",
+                "version": "0.1.1",
                 "license": "Apache-2.0",
                 "author": [
                     "Sebastian Ehlert"
@@ -1028,5 +1056,5 @@
             }
         }
     },
-    "index-date": "Sun Mar 21 13:59:56 2021"
+    "index-date": "Mon May 24 16:07:20 2021"
 }
