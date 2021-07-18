@@ -17,6 +17,9 @@ latest.git = "https://github.com/dftd4/dftd4"
 "1.0.1" = { git="https://github.com/zoziha/forlab", tag="v1.0.1" }
 "latest" = { git="https://github.com/zoziha/forlab" }
 
+[functional]
+"latest" = { git="https://github.com/wavebitscientific/functional-fortran" }
+
 [iso_varying_string]
 "latest" = {git="https://gitlab.com/everythingfunctional/iso_varying_string"}
 
@@ -82,6 +85,9 @@ latest.git = "https://github.com/grimme-lab/mstore.git"
 
 [multicharge]
 latest.git = "https://github.com/grimme-lab/multicharge.git"
+
+[neural-fortran]
+"latest" = { git="https://github.com/modern-fortran/neural-fortran" }
 
 [pointsets]
 "latest" = {git="https://github.com/arjenmarkus/pointsets"}
