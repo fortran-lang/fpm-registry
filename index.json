@@ -423,7 +423,7 @@
         "vegetables": {
             "latest": {
                 "name": "vegetables",
-                "version": "7.1.0",
+                "version": "7.2.0",
                 "license": "MIT",
                 "author": "Brad Richardson",
                 "maintainer": "everythingfunctional@protonmail.com",
@@ -702,7 +702,7 @@
         "mctc-lib": {
             "latest": {
                 "name": "mctc-lib",
-                "version": "0.2.2",
+                "version": "0.2.3",
                 "license": "Apache-2.0",
                 "author": [
                     "Sebastian Ehlert"
@@ -755,7 +755,7 @@
         "s-dftd3": {
             "latest": {
                 "name": "s-dftd3",
-                "version": "0.3.0",
+                "version": "0.4.1",
                 "license": "LGPL-3.0-or-later",
                 "author": [
                     "Sebastian Ehlert"
@@ -769,13 +769,13 @@
                 "dependencies": {
                     "mctc-lib": {
                         "git": "https://github.com/grimme-lab/mctc-lib",
-                        "tag": "v0.2.0"
+                        "tag": "v0.2.3"
                     }
                 },
                 "dev-dependencies": {
                     "mstore": {
                         "git": "https://github.com/grimme-lab/mstore",
-                        "tag": "v0.1.1"
+                        "tag": "v0.1.2"
                     }
                 },
                 "git": "https://github.com/awvwgk/simple-dftd3.git",
@@ -1072,19 +1072,55 @@
             },
             "latest": {
                 "name": "forlab",
-                "version": "0.1.1",
+                "version": "1.0.1",
                 "license": "MIT",
-                "author": "keurfonluu",
-                "maintainer": "keurfon.luu@mines-paristech.fr",
+                "author": "forlab contributors",
+                "maintainer": "https://github.com/zoziha/forlab",
                 "copyright": "2016-2021 forlab contributors",
-                "description": null,
+                "description": "A Fortran module that provides a lot of functions for scientific computing",
                 "executable": null,
-                "dependencies": null,
+                "dependencies": {
+                    "stdlib": {
+                        "git": "https://github.com/LKedward/stdlib-fpm.git"
+                    }
+                },
                 "dev-dependencies": null,
                 "git": "https://github.com/zoziha/forlab",
                 "git-tag": null
             }
+        },
+        "functional": {
+            "latest": {
+                "name": "functional",
+                "version": "0.6.1",
+                "license": "BSD-3-Clause",
+                "author": "Milan Curcic",
+                "maintainer": "milancurcic@hey.com",
+                "copyright": "Copyright (c) 2016-2020, functional-fortran contributors",
+                "description": null,
+                "executable": null,
+                "dependencies": null,
+                "dev-dependencies": null,
+                "git": "https://github.com/wavebitscientific/functional-fortran",
+                "git-tag": null
+            }
+        },
+        "neural-fortran": {
+            "latest": {
+                "name": "neural-fortran",
+                "version": "0.1.0",
+                "license": "MIT",
+                "author": "Milan Curcic",
+                "maintainer": "milancurcic@hey.com",
+                "copyright": "Copyright 2018-2021, neural-fortran contributors",
+                "description": null,
+                "executable": null,
+                "dependencies": null,
+                "dev-dependencies": null,
+                "git": "https://github.com/modern-fortran/neural-fortran",
+                "git-tag": null
+            }
         }
     },
-    "index-date": "Mon May 24 16:17:16 2021"
+    "index-date": "Mon Jul 19 13:35:33 2021"
 }
