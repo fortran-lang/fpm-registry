@@ -17,6 +17,9 @@ latest.git = "https://github.com/dftd4/dftd4"
 "1.0.1" = { git="https://github.com/zoziha/forlab", tag="v1.0.1" }
 "latest" = { git="https://github.com/zoziha/forlab" }
 
+[fpm]
+latest.git = "https://github.com/fortran-lang/fpm"
+
 [functional]
 "latest" = { git="https://github.com/wavebitscientific/functional-fortran" }
 
