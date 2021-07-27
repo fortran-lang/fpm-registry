@@ -104,6 +104,9 @@ latest.git = "https://github.com/awvwgk/simple-dftd3.git"
 [strff]
 "latest" = {git="https://gitlab.com/everythingfunctional/strff"}
 
+[test-drive]
+latest.git = "https://github.com/awvwgk/test-drive"
+
 [toml-f]
 latest.git = "https://github.com/toml-f/toml-f.git"
 
