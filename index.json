@@ -58,7 +58,7 @@
         "jsonff": {
             "latest": {
                 "name": "jsonff",
-                "version": "2.1.0",
+                "version": "3.0.0",
                 "license": "MIT",
                 "author": "Brad Richardson",
                 "maintainer": "everythingfunctional@protonmail.com",
@@ -68,25 +68,25 @@
                 "dependencies": {
                     "erloff": {
                         "git": "https://gitlab.com/everythingfunctional/erloff.git",
-                        "tag": "v2.0.1"
+                        "tag": "v2.1.0"
                     },
                     "iso_varying_string": {
                         "git": "https://gitlab.com/everythingfunctional/iso_varying_string.git",
-                        "tag": "v2.0.0"
+                        "tag": "v2.2.0"
                     },
                     "parff": {
                         "git": "https://gitlab.com/everythingfunctional/parff.git",
-                        "tag": "v3.1.0"
+                        "tag": "v3.1.4"
                     },
                     "strff": {
                         "git": "https://gitlab.com/everythingfunctional/strff.git",
-                        "tag": "v2.0.1"
+                        "tag": "v2.1.0"
                     }
                 },
                 "dev-dependencies": {
                     "vegetables": {
                         "git": "https://gitlab.com/everythingfunctional/vegetables",
-                        "tag": "v7.0.2"
+                        "tag": "v7.2.0"
                     }
                 },
                 "git": "https://gitlab.com/everythingfunctional/jsonff",
@@ -785,7 +785,7 @@
         "toml-f": {
             "latest": {
                 "name": "toml-f",
-                "version": "0.2.1",
+                "version": "0.2.2",
                 "license": "Apache-2.0 OR MIT",
                 "author": [
                     "Sebastian Ehlert"
@@ -964,7 +964,7 @@
         "dftd4": {
             "latest": {
                 "name": "dftd4",
-                "version": "3.2.0",
+                "version": "3.3.0",
                 "license": "LGPL-3.0-or-later",
                 "author": [
                     "Eike Caldeweyher",
@@ -1000,7 +1000,7 @@
         "multicharge": {
             "latest": {
                 "name": "multicharge",
-                "version": "0.1.1",
+                "version": "0.1.2",
                 "license": "Apache-2.0",
                 "author": [
                     "Sebastian Ehlert"
@@ -1120,7 +1120,32 @@
                 "git": "https://github.com/modern-fortran/neural-fortran",
                 "git-tag": null
             }
+        },
+        "fpm": {
+            "latest": {
+                "name": "fpm",
+                "version": "0.3.0",
+                "license": "MIT",
+                "author": "fpm maintainers",
+                "maintainer": "",
+                "copyright": "2020 fpm contributors",
+                "description": null,
+                "executable": null,
+                "dependencies": {
+                    "toml-f": {
+                        "git": "https://github.com/toml-f/toml-f",
+                        "rev": "2f5eaba864ff630ba0c3791126a3f811b6e437f3"
+                    },
+                    "M_CLI2": {
+                        "git": "https://github.com/urbanjost/M_CLI2.git",
+                        "rev": "ea6bbffc1c2fb0885e994d37ccf0029c99b19f24"
+                    }
+                },
+                "dev-dependencies": null,
+                "git": "https://github.com/fortran-lang/fpm",
+                "git-tag": null
+            }
         }
     },
-    "index-date": "Mon Jul 19 13:35:33 2021"
+    "index-date": "Wed Aug 11 20:22:57 2021"
 }
