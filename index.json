@@ -1145,7 +1145,27 @@
                 "git": "https://github.com/fortran-lang/fpm",
                 "git-tag": null
             }
+        },
+        "test-drive": {
+            "latest": {
+                "name": "test-drive",
+                "version": "0.3.0",
+                "license": "Apache-2.0",
+                "author": [
+                    "Sebastian Ehlert"
+                ],
+                "maintainer": [
+                    "@awvwgk"
+                ],
+                "copyright": "2020-2021 Sebastian Ehlert",
+                "description": "The simple testing framework",
+                "executable": null,
+                "dependencies": null,
+                "dev-dependencies": null,
+                "git": "https://github.com/awvwgk/test-drive",
+                "git-tag": null
+            }
         }
     },
-    "index-date": "Wed Aug 11 20:22:57 2021"
+    "index-date": "Thu Aug 12 10:02:31 2021"
 }
