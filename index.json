@@ -1165,7 +1165,31 @@
                 "git": "https://github.com/awvwgk/test-drive",
                 "git-tag": null
             }
+        },
+        "nlopt-f": {
+            "latest": {
+                "name": "nlopt-f",
+                "version": "0.1.0",
+                "license": "MIT",
+                "author": [
+                    "Sebastian Ehlert"
+                ],
+                "maintainer": [
+                    "@awvwgk"
+                ],
+                "copyright": "Copyright 2021 S. Ehlert",
+                "description": "Interface to NLopt library",
+                "executable": null,
+                "dependencies": null,
+                "dev-dependencies": {
+                    "test-drive": {
+                        "git": "https://github.com/awvwgk/test-drive"
+                    }
+                },
+                "git": "https://github.com/grimme-lab/nlopt-f",
+                "git-tag": null
+            }
         }
     },
-    "index-date": "Thu Aug 12 10:02:31 2021"
+    "index-date": "Thu Aug 19 03:34:26 2021"
 }
