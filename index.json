@@ -1189,7 +1189,44 @@
                 "git": "https://github.com/grimme-lab/nlopt-f",
                 "git-tag": null
             }
+        },
+        "tblite": {
+            "latest": {
+                "name": "tblite",
+                "version": "0.1.0",
+                "license": "LGPL-3.0-or-later",
+                "author": [
+                    "Sebastian Ehlert"
+                ],
+                "maintainer": [
+                    "@awvwgk"
+                ],
+                "copyright": "Copyright 2021 S. Ehlert",
+                "description": "Light-weight tight-binding framework",
+                "executable": null,
+                "dependencies": {
+                    "mctc-lib": {
+                        "git": "https://github.com/grimme-lab/mctc-lib"
+                    },
+                    "dftd4": {
+                        "git": "https://github.com/dftd4/dftd4"
+                    },
+                    "s-dftd3": {
+                        "git": "https://github.com/awvwgk/simple-dftd3"
+                    },
+                    "toml-f": {
+                        "git": "https://github.com/toml-f/toml-f"
+                    }
+                },
+                "dev-dependencies": {
+                    "mstore": {
+                        "git": "https://github.com/grimme-lab/mstore"
+                    }
+                },
+                "git": "https://github.com/awvwgk/tblite",
+                "git-tag": null
+            }
         }
     },
-    "index-date": "Thu Aug 19 03:34:26 2021"
+    "index-date": "Thu Aug 19 03:35:23 2021"
 }
