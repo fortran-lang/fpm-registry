@@ -92,6 +92,9 @@ latest.git = "https://github.com/grimme-lab/multicharge.git"
 [neural-fortran]
 "latest" = { git="https://github.com/modern-fortran/neural-fortran" }
 
+[nlopt-f]
+latest.git = "https://github.com/grimme-lab/nlopt-f"
+
 [pointsets]
 "latest" = {git="https://github.com/arjenmarkus/pointsets"}
 
