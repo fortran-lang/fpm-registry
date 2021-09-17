@@ -5,6 +5,10 @@
 [dftd4]
 latest.git = "https://github.com/dftd4/dftd4"
 
+[fftpack]
+"4.0.0" = {git="https://github.com/fortran-lang/fftpack", tag="v4.0.0"}
+"latest" = {git="https://github.com/fortran-lang/fftpack"}
+
 [fhash]
 "0.1.0" = {git="https://github.com/LKedward/fhash", tag="v0.1.0"}
 "latest" = {git="https://github.com/LKedward/fhash"}
