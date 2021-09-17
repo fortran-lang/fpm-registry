@@ -112,7 +112,7 @@ latest.git = "https://github.com/awvwgk/simple-dftd3.git"
 "latest" = {git="https://gitlab.com/everythingfunctional/sqliteff"}
 
 [stdlib]
-"latest" = {git="https://github.com/fortran-lang/stdlib", branch="stdlib-fpm"}
+"latest" = {git="https://github.com/fortran-lang/stdlib", tag="stdlib-fpm"}
 
 [strff]
 "latest" = {git="https://gitlab.com/everythingfunctional/strff"}
