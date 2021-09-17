@@ -16,6 +16,16 @@ latest.git = "https://github.com/dftd4/dftd4"
 "1.2.2" = {git="https://github.com/jacobwilliams/finterp", tag="1.2.2"}
 "latest" = {git="https://github.com/jacobwilliams/finterp"}
 
+[forlab]
+"1.0.1" = { git="https://github.com/zoziha/forlab", tag="v1.0.1" }
+"latest" = { git="https://github.com/zoziha/forlab" }
+
+[fpm]
+latest.git = "https://github.com/fortran-lang/fpm"
+
+[functional]
+"latest" = { git="https://github.com/wavebitscientific/functional-fortran" }
+
 [iso_varying_string]
 "latest" = {git="https://gitlab.com/everythingfunctional/iso_varying_string"}
 
@@ -82,6 +92,12 @@ latest.git = "https://github.com/grimme-lab/mstore.git"
 [multicharge]
 latest.git = "https://github.com/grimme-lab/multicharge.git"
 
+[neural-fortran]
+"latest" = { git="https://github.com/modern-fortran/neural-fortran" }
+
+[nlopt-f]
+latest.git = "https://github.com/grimme-lab/nlopt-f"
+
 [pointsets]
 "latest" = {git="https://github.com/arjenmarkus/pointsets"}
 
@@ -96,6 +112,12 @@ latest.git = "https://github.com/awvwgk/simple-dftd3.git"
 
 [strff]
 "latest" = {git="https://gitlab.com/everythingfunctional/strff"}
+
+[tblite]
+latest.git = "https://github.com/awvwgk/tblite"
+
+[test-drive]
+latest.git = "https://github.com/awvwgk/test-drive"
 
 [toml-f]
 latest.git = "https://github.com/toml-f/toml-f.git"
