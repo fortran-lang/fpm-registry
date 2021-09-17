@@ -33,7 +33,7 @@
         "iso_varying_string": {
             "latest": {
                 "name": "iso_varying_string",
-                "version": "2.2.0",
+                "version": "2.3.0",
                 "license": "MIT",
                 "author": "Brad Richardson",
                 "maintainer": "everythingfunctional@protonmail.com",
@@ -423,7 +423,7 @@
         "vegetables": {
             "latest": {
                 "name": "vegetables",
-                "version": "7.2.0",
+                "version": "7.2.2",
                 "license": "MIT",
                 "author": "Brad Richardson",
                 "maintainer": "everythingfunctional@protonmail.com",
@@ -1075,7 +1075,7 @@
                 "version": "1.0.1",
                 "license": "MIT",
                 "author": "forlab contributors",
-                "maintainer": "https://github.com/zoziha/forlab",
+                "maintainer": "https://github.com/fortran-fans/forlab",
                 "copyright": "2016-2021 forlab contributors",
                 "description": "A Fortran module that provides a lot of functions for scientific computing",
                 "executable": null,
@@ -1124,7 +1124,7 @@
         "fpm": {
             "latest": {
                 "name": "fpm",
-                "version": "0.3.0",
+                "version": "0.4.0",
                 "license": "MIT",
                 "author": "fpm maintainers",
                 "maintainer": "",
@@ -1150,7 +1150,7 @@
             "latest": {
                 "name": "test-drive",
                 "version": "0.3.0",
-                "license": "Apache-2.0",
+                "license": "Apache-2.0 OR MIT",
                 "author": [
                     "Sebastian Ehlert"
                 ],
@@ -1226,7 +1226,37 @@
                 "git": "https://github.com/awvwgk/tblite",
                 "git-tag": null
             }
+        },
+        "fftpack": {
+            "4.0.0": {
+                "name": "fftpack",
+                "version": "4.0.0",
+                "license": "Public Domain",
+                "author": "Paul N. Swarztrauber",
+                "maintainer": "@fortran-lang",
+                "copyright": "Copyright 1985 National Center for Atmospheric Research, Boulder, CO",
+                "description": "A package of fortran subprograms for the fast fourier transform of periodic and other symmetric sequences",
+                "executable": null,
+                "dependencies": null,
+                "dev-dependencies": null,
+                "git": "https://github.com/fortran-lang/fftpack",
+                "git-tag": "v4.0.0"
+            },
+            "latest": {
+                "name": "fftpack",
+                "version": "4.0.0",
+                "license": "Public Domain",
+                "author": "Paul N. Swarztrauber",
+                "maintainer": "@fortran-lang",
+                "copyright": "Copyright 1985 National Center for Atmospheric Research, Boulder, CO",
+                "description": "A package of fortran subprograms for the fast fourier transform of periodic and other symmetric sequences",
+                "executable": null,
+                "dependencies": null,
+                "dev-dependencies": null,
+                "git": "https://github.com/fortran-lang/fftpack",
+                "git-tag": null
+            }
         }
     },
-    "index-date": "Thu Aug 19 03:35:23 2021"
+    "index-date": "Fri Sep 17 06:53:02 2021"
 }
