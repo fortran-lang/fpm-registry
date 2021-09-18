@@ -123,7 +123,7 @@
             "latest": {
                 "name": "M_match",
                 "version": "0.1.0",
-                "license": "license",
+                "license": "MIT",
                 "author": "John S. Urban",
                 "maintainer": "urbanjost@comcast.net",
                 "copyright": "2020 John S. Urban",
@@ -1256,7 +1256,23 @@
                 "git": "https://github.com/fortran-lang/fftpack",
                 "git-tag": null
             }
+        },
+        "stdlib": {
+            "latest": {
+                "name": "stdlib",
+                "version": "0.0.0",
+                "license": "MIT",
+                "author": "stdlib contributors",
+                "maintainer": "@fortran-lang/stdlib",
+                "copyright": "2019-2021 stdlib contributors",
+                "description": null,
+                "executable": null,
+                "dependencies": null,
+                "dev-dependencies": null,
+                "git": "https://github.com/fortran-lang/stdlib",
+                "git-tag": "stdlib-fpm"
+            }
         }
     },
-    "index-date": "Fri Sep 17 06:53:02 2021"
+    "index-date": "Sat Sep 18 14:21:29 2021"
 }
