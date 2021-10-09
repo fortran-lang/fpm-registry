@@ -1,3 +1,7 @@
+[cantera]
+"2.5.1" = {git="https://github.com/Cantera/cantera", tag="v2.5.1"}
+"latest" = {git="https://github.com/Cantera/cantera"}
+
 [datetime]
 "1.7.0" = {git="https://github.com/wavebitscientific/datetime-fortran", tag="v1.7.0"}
 "latest" = {git="https://github.com/wavebitscientific/datetime-fortran"}
