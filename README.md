@@ -6,7 +6,7 @@ packages for the [fortran-lang](https://fortran-lang.org) site.
 ## How to submit a new package
 
 Your new registry submittal should first meet the 
-[general package criteria](https://github.com/fortran-lang/fortran-lang.org/blob/master/PACKAGES.md)
+[general package criteria](https://github.com/fortran-lang/fortran-lang.org/blob/HEAD/PACKAGES.md)
 required of any package listed at the
 [packages listing](https://fortran-lang.org/packages).
 
@@ -15,7 +15,7 @@ against this repository, adding the new package into the file
 [registry.toml](./registry.toml)
 in alphabetical order. It is recommended that you explicitly list each version using the 
 [`tag`](https://docs.github.com/en/free-pro-team@latest/desktop/contributing-and-collaborating-using-github-desktop/managing-tags)
-keyword, otherwise the tip of the master branch will be used. An example:
+keyword, otherwise the tip of the default branch will be used. An example:
 
 ```toml
 [datetime]
