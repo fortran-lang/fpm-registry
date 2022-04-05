@@ -87,6 +87,9 @@ latest.git = "https://github.com/grimme-lab/gcp.git"
 [mctc-lib]
 latest.git = "https://github.com/grimme-lab/mctc-lib.git"
 
+[minpack]
+latest.git = "https://github.com/fortran-lang/minpack"
+
 [mstore]
 latest.git = "https://github.com/grimme-lab/mstore.git"
 
