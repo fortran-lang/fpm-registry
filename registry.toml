@@ -1,9 +1,16 @@
+[astro-fortran]
+"1.0.0" = {git="https://github.com/jacobwilliams/astro-fortran", tag="1.0.0"}
+"latest" = {git="https://github.com/jacobwilliams/astro-fortran"}
+
 [datetime]
 "1.7.0" = {git="https://github.com/wavebitscientific/datetime-fortran", tag="v1.7.0"}
 "latest" = {git="https://github.com/wavebitscientific/datetime-fortran"}
 
 [dftd4]
 latest.git = "https://github.com/dftd4/dftd4"
+
+[easy_plplot]
+"latest" = {git="https://github.com/zoziha/easy_plplot"}
 
 [fftpack]
 "4.0.0" = {git="https://github.com/fortran-lang/fftpack", tag="v4.0.0"}
@@ -21,11 +28,55 @@ latest.git = "https://github.com/dftd4/dftd4"
 "1.0.1" = { git="https://github.com/zoziha/forlab", tag="v1.0.1" }
 "latest" = { git="https://github.com/zoziha/forlab" }
 
+[fortran-csv-module]
+"1.5.0" = {git="https://github.com/jacobwilliams/fortran-csv-module", tag="1.5.0"}
+"latest" = {git="https://github.com/jacobwilliams/fortran-csv-module"}
+
+[fortran-curl]
+"0.3.0" = {git="https://github.com/interkosmos/fortran-curl", tag="0.3.0"}
+"latest" = {git="https://github.com/interkosmos/fortran-curl"}
+
+[fortran-error-handler]
+"1.0.4" = {git="https://github.com/samharrison7/fortran-error-handler", tag="1.0.4"}
+"latest" = {git="https://github.com/samharrison7/fortran-error-handler"}
+
+[fortran-lua53]
+"latest" = {git="https://github.com/interkosmos/fortran-lua53"}
+
+[fortran-motif]
+"latest" = {git="https://github.com/interkosmos/fortran-motif"}
+
+[fortran-pcre2]
+"latest" = {git="https://github.com/interkosmos/fortran-pcre2"}
+
+[fortran-sdl2]
+"latest" = {git="https://github.com/interkosmos/fortran-sdl2"}
+
+[fortran-sqlite3]
+"0.2.0" = {git="https://github.com/interkosmos/fortran-sqlite3", tag="0.2.0"}
+"latest" = {git="https://github.com/interkosmos/fortran-sqlite3"}
+
+[fortran-tcl86]
+"latest" = {git="https://github.com/interkosmos/fortran-tcl86"}
+
+[fortran-unix]
+"latest" = {git="https://github.com/interkosmos/fortran-unix"}
+
+[fortran-xlib]
+"latest" = {git="https://github.com/interkosmos/fortran-xlib"}
+
+[fortran-zlib]
+"latest" = {git="https://github.com/interkosmos/fortran-zlib"}
+
 [fpm]
 latest.git = "https://github.com/fortran-lang/fpm"
 
 [functional]
 "latest" = { git="https://github.com/wavebitscientific/functional-fortran" }
+
+[general-purpose-fortran]
+"2.0.0" = {git="https://github.com/urbanjost/general-purpose-fortran", tag="v2.0.0"}
+"latest" = {git="https://github.com/urbanjost/general-purpose-fortran"}
 
 [iso_varying_string]
 "latest" = {git="https://gitlab.com/everythingfunctional/iso_varying_string"}
@@ -73,10 +124,10 @@ latest.git = "https://github.com/fortran-lang/fpm"
 "latest" = {git="https://github.com/urbanjost/M_process"}
 
 [M_strings]
-   "latest" = {git="https://github.com/urbanjost/M_strings"}
+"latest" = {git="https://github.com/urbanjost/M_strings"}
 
 [M_system]
-   "latest" = {git="https://github.com/urbanjost/M_system"}
+"latest" = {git="https://github.com/urbanjost/M_system"}
 
 [M_time]
 "latest" = {git="https://github.com/urbanjost/M_time"}
@@ -96,17 +147,33 @@ latest.git = "https://github.com/grimme-lab/multicharge.git"
 [neural-fortran]
 "latest" = { git="https://github.com/modern-fortran/neural-fortran" }
 
+[nlesolver-fortran]
+"1.1.1" = {git="https://github.com/jacobwilliams/nlesolver-fortran", tag="1.1.1"}
+"latest" = {git="https://github.com/jacobwilliams/nlesolver-fortran"}
+
 [nlopt-f]
 latest.git = "https://github.com/grimme-lab/nlopt-f"
 
 [pointsets]
 "latest" = {git="https://github.com/arjenmarkus/pointsets"}
 
+[quadpack]
+"2.1.0" = {git="https://github.com/jacobwilliams/quadpack", tag="2.1.0"}
+"latest" = {git="https://github.com/jacobwilliams/quadpack"}
+
 [quaff]
 "latest" = {git="https://gitlab.com/everythingfunctional/quaff"}
 
+[roots-fortran]
+"1.3.0" = {git="https://github.com/jacobwilliams/roots-fortran", tag="1.3.0"}
+"latest" = {git="https://github.com/jacobwilliams/roots-fortran"}
+
 [s-dftd3]
 latest.git = "https://github.com/awvwgk/simple-dftd3.git"
+
+[slsqp]
+"1.2.3" = {git="https://github.com/jacobwilliams/slsqp", tag="1.2.3"}
+"latest" = {git="https://github.com/jacobwilliams/slsqp"}
 
 [sqliteff]
 "latest" = {git="https://gitlab.com/everythingfunctional/sqliteff"}
