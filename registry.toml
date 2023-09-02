@@ -1,3 +1,7 @@
+[codata]
+"0.8.1" = {git="https://github.com/MilanSkocic/codata", tag="0.8.1"}
+"latest" = {git="https://github.com/MilanSkocic/codata"}
+
 [datetime]
 "1.7.0" = {git="https://github.com/wavebitscientific/datetime-fortran", tag="v1.7.0"}
 "latest" = {git="https://github.com/wavebitscientific/datetime-fortran"}
