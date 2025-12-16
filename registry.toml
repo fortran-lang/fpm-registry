@@ -2,6 +2,10 @@
 "1.7.0" = {git="https://github.com/wavebitscientific/datetime-fortran", tag="v1.7.0"}
 "latest" = {git="https://github.com/wavebitscientific/datetime-fortran"}
 
+[dcuhre]
+"0.1.0" = {git="https://github.com/Zaneham/dcuhre", tag="v0.1.0"}
+"latest" = {git="https://github.com/Zaneham/dcuhre"}
+
 [dftd4]
 latest.git = "https://github.com/dftd4/dftd4"
 
