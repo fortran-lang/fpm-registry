@@ -1,3 +1,8 @@
+[capnp]
+"0.1.0" = {git="https://github.com/HaoZeke/capnp-fortran", tag="v0.1.0"}
+"0.1.1" = {git="https://github.com/HaoZeke/capnp-fortran", tag="v0.1.1"}
+"latest" = {git="https://github.com/HaoZeke/capnp-fortran"}
+
 [datetime]
 "1.7.0" = {git="https://github.com/wavebitscientific/datetime-fortran", tag="v1.7.0"}
 "latest" = {git="https://github.com/wavebitscientific/datetime-fortran"}
