@@ -5,6 +5,10 @@
 [dftd4]
 latest.git = "https://github.com/dftd4/dftd4"
 
+[dseams]
+"2.14.0" = {git="https://github.com/d-SEAMS/dseams-fortran", tag="v2.14.0"}
+"latest" = {git="https://github.com/d-SEAMS/dseams-fortran"}
+
 [fftpack]
 "4.0.0" = {git="https://github.com/fortran-lang/fftpack", tag="v4.0.0"}
 "latest" = {git="https://github.com/fortran-lang/fftpack"}
